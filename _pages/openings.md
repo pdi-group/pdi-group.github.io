@@ -97,7 +97,7 @@ permalink: /openings/
     </p>
 
     <a class="application-box__email" href="mailto:{{ site.email }}">
-      Email the group
+      Email the PI
       <span aria-hidden="true">→</span>
     </a>
   </div>
