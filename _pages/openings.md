@@ -3,41 +3,163 @@ title: Openings
 heading: Openings
 layout: page
 eyebrow: Join the group
-intro: We welcome motivated researchers and students who enjoy combining fundamental questions with hands-on experimental work.
+intro: We welcome motivated students and researchers interested in optoelectronics, integrated photonics, and electronic engineering.
 permalink: /openings/
 ---
 
 <div class="opening-grid">
-  <section class="opening-card">
-    <p class="eyebrow">Research positions</p>
-    <h2>PhD</h2>
-    <p>balabala.</p>
-    <a class="text-link" href="mailto:{{ site.email }}">Email the group <span aria-hidden="true">→</span></a>
-  </section>
 
-  <section class="opening-card">
-    <p class="eyebrow">Research positions</p>
-    <h2>Postdoc</h2>
-    <p>balabala.</p>
-    <a class="text-link" href="mailto:{{ site.email }}">Ask about projects <span aria-hidden="true">→</span></a>
-  </section>
+  <article class="opening-card opening-card--featured">
+    <div class="opening-card__top">
+      <p class="eyebrow">Graduate students</p>
+      <span class="opening-card__tag">Open year-round</span>
+    </div>
 
-  <section class="opening-card">
-    <p class="eyebrow">Undergraduate intern</p>
-    <h2>balabala</h2>
-    <p>balabala.</p>
-    <a class="text-link" href="mailto:{{ site.email }}">Discuss a proposal <span aria-hidden="true">→</span></a>
-  </section>
+    <h2>PhD Openings</h2>
+
+    <p>
+      We welcome prospective graduate students with interests in
+      optoelectronics, integrated photonics, electronic engineering,
+      and related research areas.
+    </p>
+
+    <p class="opening-card__note">
+      Applicants may contact us before submitting their application
+      to discuss potential research topics and opportunities.
+    </p>
+
+    <a class="text-link" href="mailto:{{ site.email }}">
+      Enquire about PhD opportunities
+      <span aria-hidden="true">→</span>
+    </a>
+  </article>
+
+
+  <article class="opening-card">
+    <div class="opening-card__top">
+      <p class="eyebrow">Research positions</p>
+      <span class="opening-card__tag">Enquiries welcome</span>
+    </div>
+
+    <h2>Postdoc &amp; Research Assistant</h2>
+
+    <p>
+      We welcome applications from postdoctoral researchers and research
+      assistants with backgrounds in electronic engineering, photonics,
+      physics, or related disciplines.
+    </p>
+
+    <p class="opening-card__note">
+      Please include a brief introduction, your CV, and a summary of
+      your research interests.
+    </p>
+
+    <a class="text-link" href="mailto:{{ site.email }}">
+      Discuss a research position
+      <span aria-hidden="true">→</span>
+    </a>
+  </article>
+
+
+  <article class="opening-card">
+    <div class="opening-card__top">
+      <p class="eyebrow">Student opportunities</p>
+      <span class="opening-card__tag">Flexible duration</span>
+    </div>
+
+    <h2>Undergraduate Research</h2>
+
+    <p>
+      Undergraduate students are welcome to participate in research
+      projects, final-year projects, and summer internships.
+    </p>
+
+    <p class="opening-card__note">
+      We value curiosity, initiative, and a willingness to work on
+      challenging problems. Prior research experience is not required.
+    </p>
+
+    <a class="text-link" href="mailto:{{ site.email }}">
+      Enquire about student projects
+      <span aria-hidden="true">→</span>
+    </a>
+  </article>
+
 </div>
 
+
 <section class="application-box">
-  <div>
-    <p class="eyebrow">What to include</p>
-    <h2>A clear cold email is enough.</h2>
+
+  <div class="application-box__intro">
+    <p class="eyebrow">How to apply</p>
+    <h2>Start with a short email.</h2>
+
+    <p>
+      A formal application is not required for an initial enquiry.
+      Please briefly introduce yourself and explain which position
+      or research direction interests you.
+    </p>
   </div>
-  <ol>
-    <li>A brief introduction and the position or project you are interested in.</li>
-    <li>Your research background and the connection to our work.</li>
-    <li>A CV, plus transcripts or publications when relevant.</li>
-  </ol>
+
+
+  <div class="application-box__details">
+
+    <div class="application-box__section">
+      <h3>Please include</h3>
+
+      <ul>
+        <li>Your current institution and programme</li>
+        <li>Your research interests and relevant experience</li>
+        <li>Your CV and academic transcript, when applicable</li>
+        <li>Your expected starting date or participation period</li>
+      </ul>
+    </div>
+
+
+    <div class="application-box__section">
+      <h3>Useful application links</h3>
+
+      <div class="application-links">
+
+        <a
+          href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>
+            <strong>MPhil–PhD Programme</strong>
+            <small>Electronic Engineering at CUHK</small>
+          </span>
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <a
+          href="https://www.gs.cuhk.edu.hk/admissions/admissions/requirements"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>
+            <strong>Admission Requirements</strong>
+            <small>CUHK Graduate School</small>
+          </span>
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <a
+          href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>
+            <strong>Hong Kong PhD Fellowship</strong>
+            <small>HKPFS information</small>
+          </span>
+          <span aria-hidden="true">↗</span>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+
 </section>
