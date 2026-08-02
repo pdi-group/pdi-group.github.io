@@ -104,53 +104,41 @@ permalink: /openings/
 
 
   <div class="application-box__details">
-    <section class="application-box__section application-useful-links">
+
+    <section class="application-box__section">
       <h3>Useful links</h3>
 
-      <ul>
+      <ul class="application-checklist">
         <li>
-          <a
+            <a
             href="https://www.ee.cuhk.edu.hk/"
             target="_blank"
             rel="noopener"
-          >
-            Department of Electronic Engineering
-            <span aria-hidden="true">↗</span>
-          </a>
+            >
+              Department of Electronic Engineering
+              <span aria-hidden="true">↗</span>
+            </a>
         </li>
-
         <li>
-          <a
-            href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
-            target="_blank"
-            rel="noopener"
-          >
-            MPhil–PhD Programme in Electronic Engineering
-            <span aria-hidden="true">↗</span>
-          </a>
+            <a
+              href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
+              target="_blank"
+              rel="noopener"
+            >
+              MPhil–PhD Programme in Electronic Engineering
+              <span aria-hidden="true">↗</span>
+            </a>
         </li>
-
         <li>
-          <a
-            href="https://www.gs.cuhk.edu.hk/admissions/admissions/requirements"
-            target="_blank"
-            rel="noopener"
-          >
-            General Admission Requirements
-            <span aria-hidden="true">↗</span>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
-            target="_blank"
-            rel="noopener"
-          >
-            Hong Kong PhD Fellowship Scheme
-            <span aria-hidden="true">↗</span>
-          </a>
-        </li>
+            <a
+              href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
+              target="_blank"
+              rel="noopener"
+            >
+              Hong Kong PhD Fellowship Scheme
+              <span aria-hidden="true">↗</span>
+            </a>
+         </li>
       </ul>
     </section>
 
