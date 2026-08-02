@@ -866,57 +866,6 @@ iframe { max-width: 100%; }
   border-radius: 50%;
   background: #e5c8ed;
 }
-
-
-/* Useful links */
-
-.application-useful-links ul {
-  display: grid;
-  gap: 0;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.application-useful-links li {
-  margin: 0;
-  padding: 0;
-}
-
-.application-useful-links a {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-  padding: 14px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
-  color: rgba(255, 255, 255, 0.84) !important;
-  font-size: 0.94rem;
-  line-height: 1.45;
-  text-decoration: none;
-  transition:
-    color 0.2s ease,
-    padding-left 0.2s ease,
-    border-color 0.2s ease;
-}
-
-.application-useful-links li:first-child a {
-  padding-top: 0;
-}
-
-.application-useful-links a:hover {
-  padding-left: 5px;
-  border-color: rgba(255, 255, 255, 0.45);
-  color: #ffffff !important;
-}
-
-.application-useful-links a span {
-  flex: 0 0 auto;
-  color: #e5c8ed;
-  font-size: 0.9rem;
-}
-
-
 /* Responsive */
 
 @media (max-width: 1000px) {
