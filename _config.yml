@@ -1,10 +1,10 @@
 # Site identity — edit these values first.
-title: Allan Lab
-short_title: Allan Lab
-lab_name: The Allan Lab
-institution: University of Munich (LMU)
-department: Faculty of Physics
-email: your-email@domain.com
+title: Lab name
+short_title: Lab name
+lab_name: The Lab Name
+institution: The Chinese University of Hong Kong
+department: Department of Electronic Engineering
+email: yxue@ee.cuhk.edu.hk
 description: Research group website built with Jekyll and GitHub Pages.
 google_analytics:
 
@@ -13,9 +13,9 @@ url: "https://yumenglu417.github.io"
 baseurl: "/labtest.github.io"
 
 # Optional links shown in the header/footer.
-institution_url: "https://www.lmu.de"
-department_url: "https://www.physik.lmu.de/en/"
-address: "Geschwister-Scholl-Platz 1, 80539 München, Germany"
+institution_url: "https://www.cuhk.edu.hk/english/index.html"
+department_url: "https://www.ee.cuhk.edu.hk/en-gb/"
+address: "Room xxx, Ho Sin Hang Engineering Building, The Chinese University of Hong Kong, Shatin, NT, Hong Kong SAR"
 
 include:
   - .htaccess
