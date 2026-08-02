@@ -15,7 +15,7 @@ baseurl: "/labtest.github.io"
 # Optional links shown in the header/footer.
 institution_url: "https://www.cuhk.edu.hk/english/index.html"
 department_url: "https://www.ee.cuhk.edu.hk/en-gb/"
-address: "Room xxx, Ho Sin Hang Engineering Building, The Chinese University of Hong Kong, Shatin, NT, Hong Kong SAR"
+address: "Room 230, Ho Sin Hang Engineering Building, The Chinese University of Hong Kong, Shatin, NT, Hong Kong SAR"
 
 include:
   - .htaccess
