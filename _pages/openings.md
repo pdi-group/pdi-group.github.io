@@ -13,21 +13,21 @@ permalink: /openings/
     <p class="eyebrow">PhD & postdoc</p>
     <h2>Research positions</h2>
     <p>Send a concise email describing your background, research interests, and why our group is a good fit. Attach a CV and, where relevant, a publication list.</p>
-    <a class="text-link" href="mailto:{{ site.email }}?subject=Research%20position%20enquiry">Email the group <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="mailto:{{ site.email }}">Email the group <span aria-hidden="true">→</span></a>
   </section>
 
   <section class="opening-card">
     <p class="eyebrow">Students</p>
     <h2>Research projects</h2>
     <p>Master and bachelor projects may be available in measurement, data analysis, simulation, device development, and instrument design.</p>
-    <a class="text-link" href="mailto:{{ site.email }}?subject=Student%20project%20enquiry">Ask about projects <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="mailto:{{ site.email }}">Ask about projects <span aria-hidden="true">→</span></a>
   </section>
 
   <section class="opening-card">
     <p class="eyebrow">Fellowships</p>
     <h2>External funding</h2>
     <p>Prospective postdoctoral fellows are encouraged to contact us early so that we can develop a focused project and prepare a strong application together.</p>
-    <a class="text-link" href="mailto:{{ site.email }}?subject=Fellowship%20enquiry">Discuss a proposal <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="mailto:{{ site.email }}">Discuss a proposal <span aria-hidden="true">→</span></a>
   </section>
 </div>
 
