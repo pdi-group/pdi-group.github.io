@@ -1004,7 +1004,6 @@ iframe { max-width: 100%; }
   text-underline-offset: 4px;
 }
 
-/* 小屏幕允许长链接自然换行，防止超出页面 */
 @media (max-width: 720px) {
   .application-box .application-checklist a {
     white-space: normal;
