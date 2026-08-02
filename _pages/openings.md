@@ -8,6 +8,7 @@ permalink: /openings/
 ---
 
 <div class="opening-grid">
+  <p class="eyebrow">Current opportunities</p>
   <section class="opening-card">
     <p class="eyebrow">PhD & postdoc</p>
     <h2>Research positions</h2>
