@@ -12,7 +12,6 @@ permalink: /openings/
   <article class="opening-card opening-card--featured">
     <div class="opening-card__top">
       <p class="eyebrow">Graduate students</p>
-      <span class="opening-card__tag">Open year-round</span>
     </div>
 
     <h2>PhD Openings</h2>
@@ -38,7 +37,6 @@ permalink: /openings/
   <article class="opening-card">
     <div class="opening-card__top">
       <p class="eyebrow">Research positions</p>
-      <span class="opening-card__tag">Enquiries welcome</span>
     </div>
 
     <h2>Postdoc &amp; Research Assistant</h2>
@@ -64,10 +62,9 @@ permalink: /openings/
   <article class="opening-card">
     <div class="opening-card__top">
       <p class="eyebrow">Student opportunities</p>
-      <span class="opening-card__tag">Flexible duration</span>
     </div>
 
-    <h2>Undergraduate Research</h2>
+    <h2>Undergraduate Intern</h2>
 
     <p>
       Undergraduate students are welcome to participate in research
