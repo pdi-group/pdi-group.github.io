@@ -102,60 +102,63 @@ permalink: /openings/
   <div class="application-box__details">
 
     <div class="application-box__section">
+      <h3>Please include</h3>
+
       <ul>
         <li>Your current institution and programme</li>
         <li>Your research interests and relevant experience</li>
         <li>Your CV and academic transcript, when applicable</li>
         <li>Your expected starting date or participation period</li>
+        <li>Useful links: </li>
       </ul>
     </div>
 
 
     <section class="useful-links">
-      <h2>Useful Links</h2>
+    <h2>Useful Links</h2>
 
-      <ul>
-        <li>
-          <a
-            href="https://www.ee.cuhk.edu.hk/"
-            target="_blank"
-            rel="noopener"
-          >
-            Department of Electronic Engineering
-          </a>
-        </li>
+    <ul>
+      <li>
+        <a
+          href="https://www.ee.cuhk.edu.hk/"
+          target="_blank"
+          rel="noopener"
+        >
+          Department of Electronic Engineering
+        </a>
+      </li>
 
-        <li>
-          <a
-            href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
-            target="_blank"
-            rel="noopener"
-          >
-            MPhil–PhD Programme in Electronic Engineering
-          </a>
-        </li>
+      <li>
+        <a
+          href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
+          target="_blank"
+          rel="noopener"
+        >
+          MPhil–PhD Programme in Electronic Engineering
+        </a>
+      </li>
 
-        <li>
-          <a
-            href="https://www.gs.cuhk.edu.hk/admissions/admissions/requirements"
-            target="_blank"
-            rel="noopener"
-          >
-            General Admission Requirements
-          </a>
-        </li>
+      <li>
+        <a
+          href="https://www.gs.cuhk.edu.hk/admissions/admissions/requirements"
+          target="_blank"
+          rel="noopener"
+        >
+          General Admission Requirements
+        </a>
+      </li>
 
-        <li>
-          <a
-            href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
-            target="_blank"
-            rel="noopener"
-          >
-            Hong Kong PhD Fellowship Scheme
-          </a>
-        </li>
-      </ul>
-    </section>
+      <li>
+        <a
+          href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
+          target="_blank"
+          rel="noopener"
+        >
+          Hong Kong PhD Fellowship Scheme
+        </a>
+      </li>
+    </ul>
+  </section>
 
   </div>
 
