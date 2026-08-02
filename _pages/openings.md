@@ -102,8 +102,6 @@ permalink: /openings/
   <div class="application-box__details">
 
     <div class="application-box__section">
-      <h3>Please include</h3>
-
       <ul>
         <li>Your current institution and programme</li>
         <li>Your research interests and relevant experience</li>
