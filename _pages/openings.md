@@ -7,8 +7,23 @@ intro: We welcome motivated researchers and students who enjoy combining fundame
 permalink: /openings/
 ---
 
+<section class="opening-lead">
+  <div>
+    <p class="eyebrow">Current opportunities</p>
+    <h2>Build new experiments. Ask ambitious questions.</h2>
+    <p>Our projects sit at the interface of condensed-matter physics, nanoscale measurement, and scientific instrumentation. Group members contribute to the full research process: defining questions, designing experiments, collecting data, and interpreting results.</p>
+  </div>
+  <aside class="opening-status">
+    <span class="status-dot" aria-hidden="true"></span>
+    <div>
+      <strong>Applications welcome</strong>
+      <p>PhD students, postdoctoral researchers, and research students.</p>
+    </div>
+  </aside>
+</section>
+
 <div class="opening-grid">
-  <p class="eyebrow">Current opportunities</p>
+<p class="eyebrow">Current opportunities</p>
   <section class="opening-card">
     <p class="eyebrow">PhD & postdoc</p>
     <h2>Research positions</h2>
