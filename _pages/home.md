@@ -59,7 +59,7 @@ body_class: home-page
         <h2>Latest news</h2>
       </div>
       <div class="news-list news-list--home">
-        {% for article in site.data.news limit: 6 %}
+        {% for article in site.data.news limit: 4 %}
         <article class="news-item">
           <time>{{ article.date }}</time>
           <div>{% include render_news.html headline=article.headline %}</div>
