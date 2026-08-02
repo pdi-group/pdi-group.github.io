@@ -949,3 +949,27 @@ iframe { max-width: 100%; }
     font-size: 2.25rem;
   }
 }
+/* Force links inside the purple application box to white */
+
+.application-box .application-box__email,
+.application-box .application-box__email:visited {
+  color: #ffffff !important;
+}
+
+.application-box .application-box__email span {
+  color: #ffffff !important;
+}
+
+.application-box .application-useful-links a,
+.application-box .application-useful-links a:visited {
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+
+.application-box .application-useful-links a span {
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+
+.application-box .application-useful-links a:hover,
+.application-box .application-useful-links a:hover span {
+  color: #ffffff !important;
+}
