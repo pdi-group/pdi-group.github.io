@@ -92,7 +92,6 @@ permalink: /openings/
     <h2>Start with a short email.</h2>
 
     <p>
-      A formal application is not required for an initial enquiry.
       Please briefly introduce yourself and explain which position
       or research direction interests you.
     </p>
@@ -105,19 +104,6 @@ permalink: /openings/
 
 
   <div class="application-box__details">
-
-    <section class="application-box__section">
-      <h3>Please include</h3>
-
-      <ul class="application-checklist">
-        <li>Your current institution and programme</li>
-        <li>Your research interests and relevant experience</li>
-        <li>Your CV and academic transcript, when applicable</li>
-        <li>Your expected starting date or participation period</li>
-      </ul>
-    </section>
-
-
     <section class="application-box__section application-useful-links">
       <h3>Useful links</h3>
 
