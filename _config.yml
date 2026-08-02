@@ -21,9 +21,6 @@ include:
   - .htaccess
   - _pages
 
-sass:
-  sass_dir: _sass
-  style: compressed
 
 markdown: kramdown
 highlighter: rouge
@@ -39,7 +36,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  parse_block_html: true
+  parse_block_html: false
 
 exclude:
   - README_CUSTOMIZE.md
