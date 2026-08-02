@@ -951,10 +951,11 @@ iframe { max-width: 100%; }
 }
 /* Force links inside the purple application box to white */
 
-.application-box .application-box__email,
+/*.application-box .application-box__email,
 .application-box .application-box__email:visited {
   color: #ffffff !important;
 }
+*/
 
 .application-box .application-box__email span {
   color: #ffffff !important;
