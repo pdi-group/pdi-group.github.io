@@ -113,49 +113,51 @@ permalink: /openings/
     </div>
 
 
-    <div class="application-box__section">
-      <h3>Useful application links</h3>
+    <section class="useful-links">
+      <h2>Useful Links</h2>
 
-      <div class="application-links">
+      <ul>
+        <li>
+          <a
+            href="https://www.ee.cuhk.edu.hk/"
+            target="_blank"
+            rel="noopener"
+          >
+            Department of Electronic Engineering
+          </a>
+        </li>
 
-        <a
-          href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
-          target="_blank"
-          rel="noopener"
-        >
-          <span>
-            <strong>MPhil–PhD Programme</strong>
-            <small>Electronic Engineering at CUHK</small>
-          </span>
-          <span aria-hidden="true">↗</span>
-        </a>
+        <li>
+          <a
+            href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
+            target="_blank"
+            rel="noopener"
+          >
+            MPhil–PhD Programme in Electronic Engineering
+          </a>
+        </li>
 
-        <a
-          href="https://www.gs.cuhk.edu.hk/admissions/admissions/requirements"
-          target="_blank"
-          rel="noopener"
-        >
-          <span>
-            <strong>Admission Requirements</strong>
-            <small>CUHK Graduate School</small>
-          </span>
-          <span aria-hidden="true">↗</span>
-        </a>
+        <li>
+          <a
+            href="https://www.gs.cuhk.edu.hk/admissions/admissions/requirements"
+            target="_blank"
+            rel="noopener"
+          >
+            General Admission Requirements
+          </a>
+        </li>
 
-        <a
-          href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
-          target="_blank"
-          rel="noopener"
-        >
-          <span>
-            <strong>Hong Kong PhD Fellowship</strong>
-            <small>HKPFS information</small>
-          </span>
-          <span aria-hidden="true">↗</span>
-        </a>
-
-      </div>
-    </div>
+        <li>
+          <a
+            href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
+            target="_blank"
+            rel="noopener"
+          >
+            Hong Kong PhD Fellowship Scheme
+          </a>
+        </li>
+      </ul>
+    </section>
 
   </div>
 
