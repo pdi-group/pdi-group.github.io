@@ -1,25 +1,38 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">Allan Lab @ Leiden &rarr; University of Munich (LMU)</a>
-	</div>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/vacancies">Vacancies</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/teaching">Teaching</a></li>
-	<!-- li><a href="{{ site.url }}{{ site.baseurl }}/pictures">(Pics)</a></li> -->	
-	  </ul>
-	</div>
+<header class="site-header" id="site-header">
+  <div class="institution-bar">
+    <div class="site-shell institution-bar__inner">
+      <a href="{{ site.department_url }}" target="_blank" rel="noopener">{{ site.department }}</a>
+      <span aria-hidden="true">·</span>
+      <a href="{{ site.institution_url }}" target="_blank" rel="noopener">{{ site.institution }}</a>
+    </div>
   </div>
-</div>
+
+  <div class="site-shell nav-wrap">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.lab_name }} home">
+      <span class="brand-mark" aria-hidden="true">{{ site.short_title | slice: 0, 1 }}</span>
+      <span class="brand-copy">
+        <strong>{{ site.lab_name }}</strong>
+        <small>{{ site.institution }}</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+
+    <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+      <ul>
+        {% for item in site.data.navigation %}
+          {% assign is_active = false %}
+          {% if item.url == '/' and page.url == '/' %}
+            {% assign is_active = true %}
+          {% elsif item.url != '/' and page.url contains item.url %}
+            {% assign is_active = true %}
+          {% endif %}
+          <li><a href="{{ item.url | relative_url }}"{% if is_active %} class="is-active" aria-current="page"{% endif %}>{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

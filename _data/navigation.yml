@@ -1,0 +1,14 @@
+- label: Home
+  url: /
+- label: News
+  url: /news/
+- label: Research
+  url: /research/
+- label: Publications
+  url: /publications/
+- label: Team
+  url: /team/
+- label: Gallery
+  url: /gallery/
+- label: Openings
+  url: /openings/

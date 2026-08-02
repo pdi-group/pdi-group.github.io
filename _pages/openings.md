@@ -1,41 +1,58 @@
 ---
-title: "Allan Lab - Vacancies"
-layout: textlay
-excerpt: "Openings"
-sitemap: false
-permalink: /vacancies
+title: Openings
+heading: Openings
+layout: page
+eyebrow: Join the group
+intro: We welcome motivated researchers and students who enjoy combining fundamental questions with hands-on experimental work.
+permalink: /openings/
 ---
 
-# Open positions
+<section class="opening-lead">
+  <div>
+    <p class="eyebrow">Current opportunities</p>
+    <h2>Build new experiments. Ask ambitious questions.</h2>
+    <p>Our projects sit at the interface of condensed-matter physics, nanoscale measurement, and scientific instrumentation. Group members contribute to the full research process: defining questions, designing experiments, collecting data, and interpreting results.</p>
+  </div>
+  <aside class="opening-status">
+    <span class="status-dot" aria-hidden="true"></span>
+    <div>
+      <strong>Applications welcome</strong>
+      <p>PhD students, postdoctoral researchers, and research students.</p>
+    </div>
+  </aside>
+</section>
 
-**We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
+<div class="opening-grid">
+  <section class="opening-card">
+    <p class="eyebrow">PhD & postdoc</p>
+    <h2>Research positions</h2>
+    <p>Send a concise email describing your background, research interests, and why our group is a good fit. Attach a CV and, where relevant, a publication list.</p>
+    <a class="text-link" href="mailto:{{ site.email }}?subject=Research%20position%20enquiry">Email the group <span aria-hidden="true">→</span></a>
+  </section>
 
-We are  looking for new group members with passion, talent, and grit!
+  <section class="opening-card">
+    <p class="eyebrow">Students</p>
+    <h2>Research projects</h2>
+    <p>Master and bachelor projects may be available in measurement, data analysis, simulation, device development, and instrument design.</p>
+    <a class="text-link" href="mailto:{{ site.email }}?subject=Student%20project%20enquiry">Ask about projects <span aria-hidden="true">→</span></a>
+  </section>
 
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
+  <section class="opening-card">
+    <p class="eyebrow">Fellowships</p>
+    <h2>External funding</h2>
+    <p>Prospective postdoctoral fellows are encouraged to contact us early so that we can develop a focused project and prepare a strong application together.</p>
+    <a class="text-link" href="mailto:{{ site.email }}?subject=Fellowship%20enquiry">Discuss a proposal <span aria-hidden="true">→</span></a>
+  </section>
+</div>
 
-### Past open positions
-
-You find the past job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf),
-[Opening 3]({{ site.baseurl }}/downloads/PD.pdf),
-[Opening 4]({{ site.baseurl }}/downloads/PHD1.pdf),
-[Opening 5]({{ site.baseurl }}/downloads/PHD2.pdf).
-
-### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:milan.allan@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
-
-We especially welcome postdocs with fellowships. I'd be happy to support you, also after you apply to our group. Take a look at the [veni fellowship](https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-domain) or the Marie Curie fellowship (currently closed, next deadline probably Fall 2021, [here is last years call]({{ site.baseurl }}/downloads/h2020-wp1820-msca_en.pdf)). In many country, there are also fellowships available for outdoing postdocs.**
-
-
-### Master projects for Leiden University students
-If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office.
-
-### Bsc / Master students from elsewhere
-If you are interested in pursuing a Master degree at Leiden University, see [mastersinleiden.nl](http://www.mastersinleiden.nl/programmes/physics/en/introduction). Sometimes, we take master students or summer interns if we get exceptional applicants (this usually means very good grades and a personal recommendation).
-
-
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%">
-</figure>
+<section class="application-box">
+  <div>
+    <p class="eyebrow">What to include</p>
+    <h2>A clear first email is enough.</h2>
+  </div>
+  <ol>
+    <li>A brief introduction and the position or project you are interested in.</li>
+    <li>Your research background and the connection to our work.</li>
+    <li>A CV, plus transcripts or publications when relevant.</li>
+  </ol>
+</section>

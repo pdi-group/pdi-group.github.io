@@ -1,13 +1,17 @@
 ---
-title: "News"
-layout: textlay
-excerpt: "Allan Lab at Leiden University."
-sitemap: false
-permalink: /allnews.html
+title: News
+heading: News
+layout: page
+eyebrow: Updates
+intro: Group announcements, publications, awards, and new arrivals.
+permalink: /news/
 ---
 
-# News
-
-{% for article in site.data.news %}
-<p>{{ article.date }} <br> {{ article.headline | markdownify}}</p>
-{% endfor %}
+<div class="news-archive">
+  {% for article in site.data.news %}
+  <article class="news-archive__item">
+    <time>{{ article.date }}</time>
+    <div>{% include render_news.html headline=article.headline %}</div>
+  </article>
+  {% endfor %}
+</div>

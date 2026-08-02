@@ -1,0 +1,14 @@
+- title: Quantum materials
+  image: /images/respic/SpinFluc.png
+  summary: We investigate emergent electronic states and the microscopic mechanisms that govern correlated quantum systems.
+  link: /research/#quantum-materials
+
+- title: Quantum sensing
+  image: /images/respic/STMHead.png
+  summary: We develop sensitive measurement approaches that reveal local electronic and magnetic behavior at the nanoscale.
+  link: /research/#quantum-sensing
+
+- title: Scientific instrumentation
+  image: /images/respic/SmartTip.png
+  summary: We design new probes and experimental platforms to access physical quantities that conventional tools cannot resolve.
+  link: /research/#instrumentation

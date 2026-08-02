@@ -1,0 +1,6 @@
+{% capture rendered_news %}{{ include.headline | markdownify }}{% endcapture %}
+{% capture root_single %}src='/images/{% endcapture %}
+{% capture base_single %}src='{{ site.baseurl }}/images/{% endcapture %}
+{% capture root_double %}src="/images/{% endcapture %}
+{% capture base_double %}src="{{ site.baseurl }}/images/{% endcapture %}
+{{ rendered_news | replace: root_single, base_single | replace: root_double, base_double }}

@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-<article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
+<section class="page-hero">
+  <div class="site-shell page-hero__inner">
+    {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% if page.intro %}<p class="page-intro">{{ page.intro }}</p>{% endif %}
   </div>
-
+</section>
+<article class="site-shell page-content">
+  {{ content }}
 </article>

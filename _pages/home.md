@@ -1,75 +1,128 @@
 ---
-title: "Allan Lab - Home"
+title: Home
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
-sitemap: false
+excerpt: Research group homepage.
 permalink: /
+body_class: home-page
 ---
 
-**News: Our group moved to the University of Munich (LMU)!** Join us! 
-
-We are a dynamic research group at [LMU physics](https://www.physik.lmu.de/en/index.html) and at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl/). 
-
-We have two overarching goals: first, 
-**to understand quantum materials**, including strange metals, high-temperature superconductors, and quantum critical electron matter. Second, **to make novel and useful materials** that never existed before, like possible room-temperature superconductors. 
-To achieve these goals, we develop new quantum sensing and quantum imaging instrumentation to obtain the key quantum mechanical degrees of freedom. We want to build the perfect instruments to answer the scientific questions we deem most important. 
-
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
-    </ol>
-
-    <!-- Items -->
-    <div class="carousel-inner" markdown="0">
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SmartTipSide.jpg" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/lab.jpg" alt="Slide 4" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Fig_Science_Web.jpg" alt="Slide 5" />
-        </div>       
-         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/BSCCO2gap2.jpg" alt="Slide 6" />
-        </div>
+<section class="home-hero">
+  <div class="site-shell home-hero__grid">
+    <div class="home-hero__copy">
+      <p class="eyebrow">{{ site.department }} · {{ site.institution }}</p>
+      <h1>Exploring quantum matter through new experiments.</h1>
+      <p class="home-hero__lead">We combine fundamental physics, precision measurement, and instrument development to study complex electronic systems at the nanoscale.</p>
+      <div class="button-row">
+        <a class="button button--primary" href="{{ '/research/' | relative_url }}">Explore our research</a>
+        <a class="button button--ghost" href="{{ '/openings/' | relative_url }}">Join the group</a>
+      </div>
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+    <figure class="home-hero__media">
+      <img src="{{ '/images/slider7001400/lab.jpg' | relative_url }}" alt="Research laboratory">
+      <figcaption>Research, instrumentation, and collaboration.</figcaption>
+    </figure>
+  </div>
+</section>
 
+<section class="section section--compact">
+  <div class="site-shell intro-strip">
+    <p class="intro-strip__label">Our mission</p>
+    <p class="intro-strip__text">Understand emergent quantum phenomena and build the tools needed to observe them.</p>
+  </div>
+</section>
 
-We are currently building up our instruments right in the center of Munich, in the *Sommerfeldkeller*, where Sommerfeld and Röntgen worked. We will exchange ideas with world class groups working in quantum physics, cold-atom many-body physics, and 2d quantum materials. We are also a proud member of the [SuperC consortium](https://superc2033.com/our-team/).
+<section class="section">
+  <div class="site-shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">What we do</p>
+        <h2>Research at a glance</h2>
+      </div>
+      <a class="text-link" href="{{ '/research/' | relative_url }}">View all research <span aria-hidden="true">→</span></a>
+    </div>
 
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://www.allanlab.org/vacancies) **!**
+    <div class="research-card-grid">
+      {% for item in site.data.research %}
+      <article class="research-card">
+        <a class="research-card__image" href="{{ item.link | relative_url }}">
+          <img src="{{ item.image | relative_url }}" alt="">
+        </a>
+        <div class="research-card__body">
+          <h3><a href="{{ item.link | relative_url }}">{{ item.title }}</a></h3>
+          <p>{{ item.summary }}</p>
+          <a class="text-link" href="{{ item.link | relative_url }}">Learn more <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
+<section class="section section--tinted">
+  <div class="site-shell split-section">
+    <div>
+      <div class="section-heading section-heading--stacked">
+        <p class="eyebrow">Updates</p>
+        <h2>Latest news</h2>
+      </div>
+      <div class="news-list news-list--home">
+        {% for article in site.data.news limit: 6 %}
+        <article class="news-item">
+          <time>{{ article.date }}</time>
+          <div>{% include render_news.html headline=article.headline %}</div>
+        </article>
+        {% endfor %}
+      </div>
+      <a class="button button--secondary" href="{{ '/news/' | relative_url }}">All news</a>
+    </div>
 
+    <aside class="join-panel">
+      <p class="eyebrow">Work with us</p>
+      <h2>Curious minds are welcome.</h2>
+      <p>We welcome enquiries from prospective students, postdoctoral researchers, and collaborators whose interests connect with our work.</p>
+      <a class="button button--light" href="{{ '/openings/' | relative_url }}">See openings</a>
+    </aside>
+  </div>
+</section>
 
+<section class="section">
+  <div class="site-shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Selected work</p>
+        <h2>Featured publications</h2>
+      </div>
+      <a class="text-link" href="{{ '/publications/' | relative_url }}">Full publication list <span aria-hidden="true">→</span></a>
+    </div>
 
+    <div class="featured-publications">
+      {% assign featured_count = 0 %}
+      {% for publi in site.data.publist %}
+        {% if publi.highlight == 1 and featured_count < 3 %}
+        <article class="featured-publication">
+          {% if publi.image %}
+          <img src="{{ '/images/pubpic/' | append: publi.image | relative_url }}" alt="">
+          {% endif %}
+          <div>
+            <h3><a href="{{ publi.link.url }}" target="_blank" rel="noopener">{{ publi.title }}</a></h3>
+            <p class="publication-authors">{{ publi.authors }}</p>
+            <p class="publication-venue">{{ publi.link.display }}</p>
+          </div>
+        </article>
+        {% assign featured_count = featured_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
-<figure class="fifth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/LMU_logo.png" style="width: 130px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 140px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Tschira.png" style="width: 150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 100px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/SuperC_logo.png" style="width: 100px">
-</figure>
+<section class="photo-band">
+  <img src="{{ '/images/slider7001400/Group2015_red.jpg' | relative_url }}" alt="Group members">
+  <div class="photo-band__overlay">
+    <div class="site-shell">
+      <p class="eyebrow">People make the science</p>
+      <h2>Meet the team behind the work.</h2>
+      <a class="button button--light" href="{{ '/team/' | relative_url }}">Our team</a>
+    </div>
+  </div>
+</section>
