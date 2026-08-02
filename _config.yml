@@ -5,7 +5,8 @@ lab_name: The Lab Name
 institution: The Chinese University of Hong Kong
 department: Department of Electronic Engineering
 email: yxue@ee.cuhk.edu.hk
-description: Research group website built with Jekyll and GitHub Pages.
+description: Research group website built with Jekyll and GitHub Pages. \ 
+ Webpage designed by Yumeng Lu. \
 google_analytics:
 
 # GitHub Pages project-site configuration.
