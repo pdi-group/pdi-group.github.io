@@ -96,69 +96,77 @@ permalink: /openings/
       Please briefly introduce yourself and explain which position
       or research direction interests you.
     </p>
+
+    <a class="application-box__email" href="mailto:{{ site.email }}">
+      Email the group
+      <span aria-hidden="true">→</span>
+    </a>
   </div>
 
 
   <div class="application-box__details">
 
-    <div class="application-box__section">
+    <section class="application-box__section">
       <h3>Please include</h3>
 
-      <ul>
+      <ul class="application-checklist">
         <li>Your current institution and programme</li>
         <li>Your research interests and relevant experience</li>
         <li>Your CV and academic transcript, when applicable</li>
         <li>Your expected starting date or participation period</li>
-        <li>Useful links: </li>
       </ul>
-    </div>
+    </section>
 
 
-    <section class="useful-links">
-    <h2>Useful Links</h2>
+    <section class="application-box__section application-useful-links">
+      <h3>Useful links</h3>
 
-    <ul>
-      <li>
-        <a
-          href="https://www.ee.cuhk.edu.hk/"
-          target="_blank"
-          rel="noopener"
-        >
-          Department of Electronic Engineering
-        </a>
-      </li>
+      <ul>
+        <li>
+          <a
+            href="https://www.ee.cuhk.edu.hk/"
+            target="_blank"
+            rel="noopener"
+          >
+            Department of Electronic Engineering
+            <span aria-hidden="true">↗</span>
+          </a>
+        </li>
 
-      <li>
-        <a
-          href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
-          target="_blank"
-          rel="noopener"
-        >
-          MPhil–PhD Programme in Electronic Engineering
-        </a>
-      </li>
+        <li>
+          <a
+            href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
+            target="_blank"
+            rel="noopener"
+          >
+            MPhil–PhD Programme in Electronic Engineering
+            <span aria-hidden="true">↗</span>
+          </a>
+        </li>
 
-      <li>
-        <a
-          href="https://www.gs.cuhk.edu.hk/admissions/admissions/requirements"
-          target="_blank"
-          rel="noopener"
-        >
-          General Admission Requirements
-        </a>
-      </li>
+        <li>
+          <a
+            href="https://www.gs.cuhk.edu.hk/admissions/admissions/requirements"
+            target="_blank"
+            rel="noopener"
+          >
+            General Admission Requirements
+            <span aria-hidden="true">↗</span>
+          </a>
+        </li>
 
-      <li>
-        <a
-          href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
-          target="_blank"
-          rel="noopener"
-        >
-          Hong Kong PhD Fellowship Scheme
-        </a>
-      </li>
-    </ul>
-  </section>
+        <li>
+          <a
+            href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
+            target="_blank"
+            rel="noopener"
+          >
+            Hong Kong PhD Fellowship Scheme
+            <span aria-hidden="true">↗</span>
+          </a>
+        </li>
+      </ul>
+    </section>
 
   </div>
 
