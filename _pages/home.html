@@ -24,13 +24,6 @@ body_class: home-page
   </div>
 </section>
 
-<section class="section section--compact">
-  <div class="site-shell intro-strip">
-    <p class="intro-strip__label">Our mission</p>
-    <p class="intro-strip__text">Understand emergent quantum phenomena and build the tools needed to observe them.</p>
-  </div>
-</section>
-
 <section class="section">
   <div class="site-shell">
     <div class="section-heading">
