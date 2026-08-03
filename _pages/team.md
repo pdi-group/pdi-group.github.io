@@ -10,12 +10,77 @@ permalink: /team/
 <section class="team-section">
   <div class="section-heading">
     <div>
-      <h2>Meet the group</h2>
-      <p class="eyebrow">Current members</p>
-      
+      <h2>Postgraduate Student</h2>
     </div>
     <a class="text-link" href="{{ '/openings/' | relative_url }}">Join us <span aria-hidden="true">→</span></a>
   </div>
+
+  <section class="team-section pi-section">
+    <div>
+      <h2>Principal Investigator</h2>
+    </div>
+
+   <div class="team-section-heading">
+    <span>Principal Investigator</span>
+  </div>
+  
+  <article class="pi-profile">
+
+    <div class="pi-profile__photo">
+      <img
+        src="{{ '/images/teampic/' | append: pi.photo | relative_url }}"
+        alt="Portrait of {{ pi.name }}"
+      >
+    </div>
+
+    <div class="pi-profile__content">
+      <p class="eyebrow">Principal Investigator</p>
+
+      <h2>{{ pi.name }}</h2>
+
+      {% if pi.position %}
+      <p class="pi-profile__position">{{ pi.position }}</p>
+      {% endif %}
+
+      <div class="pi-profile__affiliation">
+        {% if pi.department %}
+        <p>{{ pi.department }}</p>
+        {% endif %}
+
+        {% if pi.university %}
+        <p>{{ pi.university }}</p>
+        {% endif %}
+      </div>
+
+      <dl class="pi-profile__details">
+
+        {% if pi.office %}
+        <div>
+          <dt>Office</dt>
+          <dd>{{ pi.office }}</dd>
+        </div>
+        {% endif %}
+
+        {% if pi.email %}
+        <div>
+          <dt>Email</dt>
+          <dd>
+            <a href="mailto:{{ pi.email }}">{{ pi.email }}</a>
+          </dd>
+        </div>
+        {% endif %}
+
+        {% if pi.phone and pi.phone != "" %}
+        <div>
+          <dt>Phone</dt>
+          <dd>{{ pi.phone }}</dd>
+        </div>
+        {% endif %}
+
+      </dl>
+    </div>
+
+  </article>
 
   <div class="team-grid">
     {% for member in site.data.team_members %}
