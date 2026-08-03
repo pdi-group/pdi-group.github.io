@@ -1010,18 +1010,19 @@ iframe { max-width: 100%; }
    ========================================================= */
 
 .team-page .pi-card-wrap {
-  display: flex;
-  justify-content: flex-start;
+  display: block;
   width: 100%;
 }
 
 .team-page article.pi-card {
-  display: grid;
-  grid-template-columns: 280px minmax(0, 1fr);
-  align-items: stretch;
+  display: grid !important;
+  grid-template-columns: 270px minmax(0, 1fr) !important;
+  column-gap: 34px;
+  align-items: start;
 
-  width: 100%;
-  max-width: 850px;
+  width: min(100%, 900px);
+  max-width: 900px;
+  padding: 20px;
   overflow: hidden;
 
   border: 1px solid var(--line);
@@ -1031,22 +1032,35 @@ iframe { max-width: 100%; }
 }
 
 
-/* 左侧照片 */
+/* 左侧照片：强制清除旧样式 */
 
-.team-page .pi-card__photo {
-  width: auto;
-  margin: 20px;
+.team-page article.pi-card .pi-card__photo {
+  position: relative !important;
+  grid-column: 1;
+  grid-row: 1;
+
+  width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: 270px !important;
+  margin: 0 !important;
+
+  aspect-ratio: 4 / 5;
   overflow: hidden;
-
-  aspect-ratio: 1 / 1;
   border-radius: 7px;
   background: var(--surface-blue);
 }
 
-.team-page .pi-card__photo img {
+.team-page article.pi-card .pi-card__photo img {
+  position: static !important;
   display: block;
-  width: 100%;
-  height: 100%;
+
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: 100% !important;
 
   object-fit: cover;
   object-position: center top;
@@ -1055,13 +1069,17 @@ iframe { max-width: 100%; }
 
 /* 右侧信息 */
 
-.team-page .pi-card__body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.team-page article.pi-card .pi-card__body {
+  position: static !important;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: start;
 
+  display: block;
   min-width: 0;
-  padding: 30px 34px 30px 12px;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 10px 22px 10px 0 !important;
 }
 
 
@@ -1071,7 +1089,7 @@ iframe { max-width: 100%; }
   margin: 0 0 5px;
   color: var(--navy-950);
   font-family: inherit;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-weight: 750;
   line-height: 1.35;
   text-align: left;
@@ -1081,9 +1099,9 @@ iframe { max-width: 100%; }
 /* 职位 */
 
 .team-page .pi-card__position {
-  margin: 0 0 20px;
+  margin: 0 0 18px;
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   text-align: left;
 }
@@ -1127,26 +1145,33 @@ iframe { max-width: 100%; }
   text-underline-offset: 3px;
 }
 
-
 .team-page .team-section:first-child {
   margin-bottom: 58px;
 }
 
 
-/* mac os */
+/* 小屏幕切换为上下布局 */
 
 @media (max-width: 760px) {
   .team-page article.pi-card {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    width: 100%;
     max-width: 430px;
+    row-gap: 0;
+    padding: 18px;
   }
 
-  .team-page .pi-card__photo {
-    margin: 18px 18px 0;
+  .team-page article.pi-card .pi-card__photo {
+    grid-column: 1;
+    grid-row: 1;
+    max-width: none !important;
+    aspect-ratio: 4 / 5;
   }
 
-  .team-page .pi-card__body {
-    padding: 22px 20px 26px;
+  .team-page article.pi-card .pi-card__body {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 22px 2px 6px !important;
   }
 }
 
