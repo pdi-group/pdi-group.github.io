@@ -1,7 +1,7 @@
 - name: Zhaojie Ren
   photo: rock.png
   info: PhD student
-  email: benschop@physics.leidenuniv.nl
+  email: email@link.cuhk.edu.hk
   number_educ: 2
   education1: M.S. Sun Yat-sen University
   education2: B.S. Sun Yat-sen University
@@ -9,7 +9,7 @@
 - name: Jinglong Chen 
   photo: rock.png
   info: PhD student
-  email: benschop@physics.leidenuniv.nl
+  email: email@link.cuhk.edu.hk
   number_educ: 2
   education1: M.S. Sun Yat-sen University
   education2: B.E. Sun Yat-sen University
@@ -17,21 +17,21 @@
 - name: Junyi Lang
   photo: rock.png
   info: PhD student
-  email: Bastiaans@Physics.LeidenUniv.nl
+  email: email@link.cuhk.edu.hk
   number_educ: 1
   education1: B.E. Huazhong University of Science and Technology
 
 - name: Yumeng Lu
   photo: rock.png
   info: PhD student
-  email: Bastiaans@Physics.LeidenUniv.nl
+  email: yumeng.lu@link.cuhk.edu.hk
   number_educ: 1
   education1: B.E. Tianjin University
 
 - name: "This could be you !"
   photo: loopy.jpg
   info: Open position — see the Openings page for more information
-  email: yxue@ee.cuhk.edu.hk
+  email: 
   number_educ: 0
   education1:
   education2:
