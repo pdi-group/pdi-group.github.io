@@ -104,21 +104,31 @@ permalink: /openings/
         </li>
         <li>
             <a
-              href="https://www.gs.cuhk.edu.hk/admissions/programme/engineering#mphil-phd-in-electronic-engineering"
+              href="https://www.ee.cuhk.edu.hk/en-gb/curriculum/mphil-phd-programme/admission"
               target="_blank"
               rel="noopener"
             >
-              MPhil–PhD Programme in Electronic Engineering
+              MPhil–PhD Programme Application
               <span aria-hidden="true">↗</span>
             </a>
         </li>
+        <li>
+            <a
+              href="https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/scholarships"
+              target="_blank"
+              rel="noopener"
+            >
+              Scholarship Schemes
+              <span aria-hidden="true">↗</span>
+            </a>
+         </li>
         <li>
             <a
               href="https://cerg1.ugc.edu.hk/hkpfs/index.html"
               target="_blank"
               rel="noopener"
             >
-              Hong Kong PhD Fellowship Scheme
+              Hong Kong PhD Fellowship Scheme (HKPFS)
               <span aria-hidden="true">↗</span>
             </a>
          </li>
