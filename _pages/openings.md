@@ -3,7 +3,7 @@ title: Openings
 heading: Openings
 layout: page
 eyebrow: Join the group
-intro: We welcome motivated students and researchers interested in optoelectronics, integrated photonics, and electronic engineering.
+intro: We welcome motivated students interested in Nanophotonics, Photonics Integration, and Quantumdot devices. 
 permalink: /openings/
 ---
 
@@ -18,13 +18,8 @@ permalink: /openings/
 
     <p>
       We welcome prospective graduate students with interests in
-      optoelectronics, integrated photonics, electronic engineering,
+      Nanophotonics, Photonics Integration, Quantumdot devices, 
       and related research areas.
-    </p>
-
-    <p class="opening-card__note">
-      Applicants may contact us before submitting their application
-      to discuss potential research topics and opportunities.
     </p>
 
     <a class="text-link" href="mailto:{{ site.email }}">
@@ -42,14 +37,8 @@ permalink: /openings/
     <h2>Postdoc &amp; Research Assistant</h2>
 
     <p>
-      We welcome applications from postdoctoral researchers and research
-      assistants with backgrounds in electronic engineering, photonics,
-      physics, or related disciplines.
-    </p>
-
-    <p class="opening-card__note">
-      Please include a brief introduction, your CV, and a summary of
-      your research interests.
+      We welcome applications for postdoctoral researchers and research
+      assistants with backgrounds in Nanophotonics, Photonics Integration, Quantumdot devices, or related disciplines.
     </p>
 
     <a class="text-link" href="mailto:{{ site.email }}">
@@ -69,11 +58,6 @@ permalink: /openings/
     <p>
       Undergraduate students are welcome to participate in research
       projects, final-year projects, and summer internships.
-    </p>
-
-    <p class="opening-card__note">
-      We value curiosity, initiative, and a willingness to work on
-      challenging problems. Prior research experience is not required.
     </p>
 
     <a class="text-link" href="mailto:{{ site.email }}">
