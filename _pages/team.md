@@ -23,7 +23,7 @@ permalink: /team/
    <div class="team-section-heading">
     <span>Principal Investigator</span>
   </div>
-  
+
   <article class="pi-profile">
 
     <div class="pi-profile__photo">
@@ -100,15 +100,15 @@ permalink: /team/
 
         {% if member.number_educ and member.number_educ > 0 %}
         <div class="member-education">
+
           {% for i in (1..member.number_educ) %}
+            {% capture education_key %}education{{ i }}{% endcapture %}
             {% assign education_item = member[education_key] %}
 
             {% if education_item and education_item != "" %}
-            {{ education_item | markdownify }}
+            <p>{{ education_item }}</p>
             {% endif %}
-          {% endfor %}
-        </div>
-        {% endif %}
+        {% endfor %}
 
         {% if member.email %}
         <a class="member-email" href="mailto:{{ member.email }}">Email</a>
