@@ -11,7 +11,7 @@ permalink: /openings/
 
   <article class="opening-card opening-card--featured">
     <div class="opening-card__top">
-      <p class="eyebrow">Graduate students</p>
+      <p class="eyebrow">Prospective students</p>
     </div>
 
     <h2>PhD Openings</h2>
@@ -50,7 +50,7 @@ permalink: /openings/
 
   <article class="opening-card">
     <div class="opening-card__top">
-      <p class="eyebrow">Student opportunities</p>
+      <p class="eyebrow">Undergraduate opportunities</p>
     </div>
 
     <h2>Undergraduate Intern</h2>
