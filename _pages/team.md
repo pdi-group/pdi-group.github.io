@@ -26,10 +26,32 @@ permalink: /team/
         <div class="member-card__placeholder" aria-hidden="true">{{ member.name | slice: 0, 1 }}</div>
         {% endif %}
       </div>
+
       <div class="member-card__body">
         <h3>{{ member.name }}</h3>
+
         <p class="member-role">{{ member.info }}</p>
-        {% if member.email %}<a class="member-email" href="mailto:{{ member.email }}">Email</a>{% endif %}
+
+        {% if member.number_educ and member.number_educ > 0 %}
+        <div class="member-education">
+          <p class="member-education__label">Education</p>
+
+          <ul>
+            {% for i in (1..member.number_educ) %}
+              {% capture education_key %}education{{ i }}{% endcapture %}
+              {% assign education_item = member[education_key] %}
+
+              {% if education_item and education_item != "" %}
+              <li>{{ education_item | markdownify }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if member.email %}
+        <a class="member-email" href="mailto:{{ member.email }}">Email</a>
+        {% endif %}
       </div>
     </article>
     {% endfor %}
