@@ -958,3 +958,301 @@ iframe { max-width: 100%; }
     white-space: normal;
   }
 }
+
+/* =========================================================
+   Team page — PI and postgraduate members
+   ========================================================= */
+
+.team-page {
+  width: 100%;
+}
+
+.team-page .team-section {
+  margin-bottom: 72px;
+}
+
+
+/* Section titles */
+
+.team-page .team-section-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 28px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.team-page .team-section-title h2 {
+  margin: 0;
+  color: var(--navy-950);
+  font-family: inherit;
+  font-size: 1.35rem;
+  font-weight: 750;
+  line-height: 1.3;
+}
+
+.team-page .team-section-title--with-link {
+  justify-content: space-between;
+}
+
+.team-page .team-section-title .text-link {
+  flex: 0 0 auto;
+  color: var(--navy-900);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   PI card
+   ========================================================= */
+
+.team-page .pi-card-wrap {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.team-page .pi-card {
+  width: 100%;
+  max-width: 330px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(75, 23, 109, 0.06);
+}
+
+.team-page .pi-card__photo {
+  margin: 18px 18px 0;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--surface-blue);
+  aspect-ratio: 1 / 1;
+}
+
+.team-page .pi-card__photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.team-page .pi-card__placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--navy-900);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.team-page .pi-card__body {
+  padding: 16px 18px 22px;
+}
+
+.team-page .pi-card__body h3 {
+  margin: 0;
+  color: var(--navy-950);
+  font-family: inherit;
+  font-size: 1.05rem;
+  font-weight: 750;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.team-page .pi-card__position {
+  margin: 4px 0 18px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.team-page .pi-card__group {
+  margin-top: 15px;
+}
+
+.team-page .pi-card__group strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.team-page .pi-card__group p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.48;
+}
+
+.team-page .pi-card__group a {
+  color: var(--navy-900);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.team-page .pi-card__group a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+
+/* =========================================================
+   Postgraduate member cards
+   ========================================================= */
+
+.team-page .team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  align-items: stretch;
+}
+
+.team-page .member-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(75, 23, 109, 0.05);
+}
+
+.team-page .member-card__photo {
+  margin: 18px 18px 0;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--surface-blue);
+  aspect-ratio: 1 / 1;
+}
+
+.team-page .member-card__photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.team-page .member-card__placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--navy-900);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.team-page .member-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 17px 18px 21px;
+}
+
+.team-page .member-card__body h3 {
+  margin: 0;
+  color: var(--navy-950);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 750;
+  line-height: 1.4;
+}
+
+.team-page .member-role {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+
+/* Education: no heading, no bullets */
+
+.team-page .member-education {
+  display: grid;
+  gap: 3px;
+  margin-top: 17px;
+  padding: 0;
+  border: 0;
+}
+
+.team-page .member-education p {
+  margin: 0;
+  padding: 0;
+  color: var(--ink);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.team-page .member-education p::before {
+  content: none;
+}
+
+.team-page .member-email {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--navy-900);
+  font-size: 0.78rem;
+  font-weight: 650;
+  line-height: 1.45;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.team-page .member-email:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+
+/* Compact students */
+
+.team-page .team-grid--compact {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.team-page .member-card--compact .member-card__body {
+  min-height: 130px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 980px) {
+  .team-page .team-grid,
+  .team-page .team-grid--compact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .team-page .team-section {
+    margin-bottom: 54px;
+  }
+
+  .team-page .team-grid,
+  .team-page .team-grid--compact {
+    grid-template-columns: 1fr;
+  }
+
+  .team-page .pi-card {
+    max-width: 100%;
+  }
+
+  .team-page .team-section-title--with-link {
+    align-items: flex-start;
+  }
+}
