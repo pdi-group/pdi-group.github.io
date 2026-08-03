@@ -14,7 +14,8 @@ permalink: /team/
   <!-- Principal Investigator -->
   <section class="team-section">
 
-    <div class="team-section-title">
+    <div class="section-heading section-heading--stacked">
+      <p class="eyebrow">Leadership</p>
       <h2>Principal Investigator</h2>
     </div>
 
@@ -37,7 +38,7 @@ permalink: /team/
 
         <div class="pi-card__body">
 
-          <h3>{{ pi.name }}</h3>
+          <h3 class="team-card-title">{{ pi.name }}</h3>
 
           {% if pi.position %}
           <p class="pi-card__position">{{ pi.position }}</p>
@@ -103,8 +104,11 @@ permalink: /team/
   <!-- Postgraduate Students -->
   <section class="team-section">
 
-    <div class="team-section-title team-section-title--with-link">
-      <h2>Postgraduate Students</h2>
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Current members</p>
+        <h2>Postgraduate Students</h2>
+      </div>
 
       <a class="text-link" href="{{ '/openings/' | relative_url }}">
         Join us
@@ -133,11 +137,12 @@ permalink: /team/
 
         <div class="member-card__body">
 
-          <h3>{{ member.name }}</h3>
+          <h3 class="team-card-title">{{ member.name }}</h3>
 
           {% if member.info %}
           <p class="member-role">{{ member.info }}</p>
           {% endif %}
+
           {% if member.number_educ and member.number_educ > 0 %}
           <div class="member-education">
 
@@ -174,7 +179,8 @@ permalink: /team/
   {% if site.data.students %}
   <section class="team-section">
 
-    <div class="team-section-title">
+    <div class="section-heading section-heading--stacked">
+      <p class="eyebrow">Students</p>
       <h2>Master and Undergraduate Students</h2>
     </div>
 
@@ -185,7 +191,7 @@ permalink: /team/
       <article class="member-card member-card--compact">
 
         <div class="member-card__body">
-          <h3>{{ member.name }}</h3>
+          <h3 class="team-card-title">{{ member.name }}</h3>
 
           {% if member.info %}
           <p class="member-role">{{ member.info }}</p>
@@ -212,7 +218,8 @@ permalink: /team/
   {% if site.data.alumni_members %}
   <section class="team-section">
 
-    <div class="team-section-title">
+    <div class="section-heading section-heading--stacked">
+      <p class="eyebrow">Former members</p>
       <h2>Alumni</h2>
     </div>
 
@@ -221,7 +228,7 @@ permalink: /team/
       {% for member in site.data.alumni_members %}
 
       <article class="alumni-item">
-        <h3>{{ member.name }}</h3>
+        <h3 class="team-card-title">{{ member.name }}</h3>
 
         {% if member.duration %}
         <p>{{ member.duration }}</p>
