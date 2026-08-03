@@ -138,7 +138,6 @@ permalink: /team/
           {% if member.info %}
           <p class="member-role">{{ member.info }}</p>
           {% endif %}
-
           {% if member.number_educ and member.number_educ > 0 %}
           <div class="member-education">
 
