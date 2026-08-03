@@ -9,7 +9,12 @@
 
   <div class="site-shell nav-wrap">
     <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.lab_name }} home">
-      <span class="brand-mark" aria-hidden="true">{{ site.short_title | slice: 0, 1 }}</span>
+      <img
+        class="brand-logo"
+        src="{{ '/images/logo/cuhk-logo.png' | relative_url }}"
+        alt="The Chinese University of Hong Kong logo"
+      >
+
       <span class="brand-copy">
         <strong>{{ site.lab_name }}</strong>
         <small>{{ site.institution }}</small>
