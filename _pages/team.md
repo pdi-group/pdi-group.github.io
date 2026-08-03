@@ -10,8 +10,9 @@ permalink: /team/
 <section class="team-section">
   <div class="section-heading">
     <div>
-      <p class="eyebrow">Current members</p>
       <h2>Meet the group</h2>
+      <p class="eyebrow">Current members</p>
+      
     </div>
     <a class="text-link" href="{{ '/openings/' | relative_url }}">Join us <span aria-hidden="true">→</span></a>
   </div>
