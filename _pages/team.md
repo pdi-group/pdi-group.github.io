@@ -3,7 +3,6 @@ title: Team
 heading: Team
 layout: page
 eyebrow: Our people
-intro: Researchers, students, engineers, and collaborators working together across experiment and instrumentation.
 permalink: /team/
 ---
 
