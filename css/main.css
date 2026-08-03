@@ -1091,7 +1091,7 @@ iframe { max-width: 100%; }
   font-family: inherit;
   font-size: 1.3rem;
   font-weight: 750;
-  line-height: 1.35;
+  line-height: 1.4;
   text-align: left;
 }
 
@@ -1099,9 +1099,9 @@ iframe { max-width: 100%; }
 /* 职位 */
 
 .team-page .pi-card__position {
-  margin: 0 0 18px;
+  margin: 5 0 18px;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 1.12rem;
   line-height: 1.5;
   text-align: left;
 }
@@ -1121,17 +1121,17 @@ iframe { max-width: 100%; }
   display: block;
   margin-bottom: 4px;
   color: var(--ink);
-  font-size: 0.84rem;
-  font-weight: 750;
-  line-height: 1.4;
+  font-size: 1.12rem;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .team-page .pi-card__group p,
 .team-page .pi-card__group a {
   margin: 0;
   color: var(--muted);
-  font-size: 0.87rem;
-  line-height: 1.55;
+  font-size: 1.12rem;
+  line-height: 1.5;
 }
 
 .team-page .pi-card__group a {
