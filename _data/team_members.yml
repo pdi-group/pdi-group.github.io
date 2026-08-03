@@ -1,32 +1,32 @@
 - name: Zhaojie Ren
   photo: rock.png
-  info: PhD student, since August 2025
+  info: PhD student
   email: benschop@physics.leidenuniv.nl
   number_educ: 2
-  education1: MSc, Sun Yat-sen University
-  education2: BSc, Sun Yat-sen University
+  education1: M.S. Sun Yat-sen University
+  education2: B.S. Sun Yat-sen University
 
 - name: Jinglong Chen 
   photo: rock.png
-  info: PhD student, since August 2025
+  info: PhD student
   email: benschop@physics.leidenuniv.nl
   number_educ: 2
-  education1: MSc, Sun Yat-sen University
-  education2: BSc, Sun Yat-sen University
+  education1: M.S. Sun Yat-sen University
+  education2: B.E. Sun Yat-sen University
 
 - name: Junyi Lang
   photo: rock.png
-  info: PhD student, since August 2026
+  info: PhD student
   email: Bastiaans@Physics.LeidenUniv.nl
   number_educ: 1
-  education1: BSc, Huazhong University of Science and Technology
+  education1: B.E. Huazhong University of Science and Technology
 
 - name: Yumeng Lu
   photo: rock.png
-  info: PhD student, since August 2026
+  info: PhD student
   email: Bastiaans@Physics.LeidenUniv.nl
   number_educ: 1
-  education1: BSc, Tianjin University
+  education1: B.E. Tianjin University
 
 - name: "This could be you !"
   photo: loopy.jpg
