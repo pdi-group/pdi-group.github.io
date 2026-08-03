@@ -1175,6 +1175,14 @@ iframe { max-width: 100%; }
   }
 }
 
+.team-page article.pi-card .pi-card__photo {
+  align-self: center !important;
+}
+
+.team-page article.pi-card .pi-card__photo img {
+  object-position: center center;
+}
+
 /* =========================================================
    Postgraduate member cards
    ========================================================= */
