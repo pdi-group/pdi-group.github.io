@@ -1006,91 +1006,114 @@ iframe { max-width: 100%; }
 
 
 /* =========================================================
-   PI card
+   PI card — horizontal layout
    ========================================================= */
 
 .team-page .pi-card-wrap {
   display: flex;
   justify-content: flex-start;
+  width: 100%;
 }
 
-.team-page .pi-card {
+.team-page article.pi-card {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  align-items: stretch;
+
   width: 100%;
-  max-width: 330px;
+  max-width: 850px;
   overflow: hidden;
+
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 10px;
   background: #ffffff;
-  box-shadow: 0 4px 14px rgba(75, 23, 109, 0.06);
+  box-shadow: 0 5px 18px rgba(75, 23, 109, 0.07);
 }
+
+
+/* 左侧照片 */
 
 .team-page .pi-card__photo {
-  margin: 18px 18px 0;
+  width: auto;
+  margin: 20px;
   overflow: hidden;
-  border-radius: 6px;
-  background: var(--surface-blue);
+
   aspect-ratio: 1 / 1;
+  border-radius: 7px;
+  background: var(--surface-blue);
 }
 
 .team-page .pi-card__photo img {
   display: block;
   width: 100%;
   height: 100%;
+
   object-fit: cover;
   object-position: center top;
 }
 
-.team-page .pi-card__placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  color: var(--navy-900);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 4rem;
-  font-weight: 700;
-}
+
+/* 右侧信息 */
 
 .team-page .pi-card__body {
-  padding: 16px 18px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-width: 0;
+  padding: 30px 34px 30px 12px;
 }
+
+
+/* 姓名 */
 
 .team-page .pi-card__body h3 {
-  margin: 0;
+  margin: 0 0 5px;
   color: var(--navy-950);
   font-family: inherit;
-  font-size: 1.18rem;
+  font-size: 1.35rem;
   font-weight: 750;
   line-height: 1.35;
-  text-align: center;
+  text-align: left;
 }
+
+
+/* 职位 */
 
 .team-page .pi-card__position {
-  margin: 4px 0 18px;
+  margin: 0 0 20px;
   color: var(--muted);
-  font-size: 1.12rem;
-  line-height: 1.45;
-  text-align: center;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  text-align: left;
 }
 
+
+/* Employment / Education / Office / Email */
+
 .team-page .pi-card__group {
-  margin-top: 15px;
+  margin-top: 14px;
+}
+
+.team-page .pi-card__group:first-of-type {
+  margin-top: 0;
 }
 
 .team-page .pi-card__group strong {
   display: block;
   margin-bottom: 4px;
   color: var(--ink);
-  font-size: 1.12rem;
-  font-weight: 700;
+  font-size: 0.84rem;
+  font-weight: 750;
+  line-height: 1.4;
 }
 
-.team-page .pi-card__group p {
+.team-page .pi-card__group p,
+.team-page .pi-card__group a {
   margin: 0;
   color: var(--muted);
-  font-size: 1.12rem;
-  line-height: 1.48;
+  font-size: 0.87rem;
+  line-height: 1.55;
 }
 
 .team-page .pi-card__group a {
@@ -1104,6 +1127,28 @@ iframe { max-width: 100%; }
   text-underline-offset: 3px;
 }
 
+
+.team-page .team-section:first-child {
+  margin-bottom: 58px;
+}
+
+
+/* mac os */
+
+@media (max-width: 760px) {
+  .team-page article.pi-card {
+    grid-template-columns: 1fr;
+    max-width: 430px;
+  }
+
+  .team-page .pi-card__photo {
+    margin: 18px 18px 0;
+  }
+
+  .team-page .pi-card__body {
+    padding: 22px 20px 26px;
+  }
+}
 
 /* =========================================================
    Postgraduate member cards
