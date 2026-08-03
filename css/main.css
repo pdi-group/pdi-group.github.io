@@ -1060,7 +1060,7 @@ iframe { max-width: 100%; }
   margin: 0;
   color: var(--navy-950);
   font-family: inherit;
-  font-size: 1.05rem;
+  font-size: 1.18rem;
   font-weight: 750;
   line-height: 1.35;
   text-align: center;
@@ -1069,7 +1069,7 @@ iframe { max-width: 100%; }
 .team-page .pi-card__position {
   margin: 4px 0 18px;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 1.12rem;
   line-height: 1.45;
   text-align: center;
 }
@@ -1082,14 +1082,14 @@ iframe { max-width: 100%; }
   display: block;
   margin-bottom: 4px;
   color: var(--ink);
-  font-size: 0.78rem;
+  font-size: 1.12rem;
   font-weight: 700;
 }
 
 .team-page .pi-card__group p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 1.12rem;
   line-height: 1.48;
 }
 
@@ -1166,7 +1166,7 @@ iframe { max-width: 100%; }
   margin: 0;
   color: var(--navy-950);
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.18rem;
   font-weight: 750;
   line-height: 1.4;
 }
@@ -1174,7 +1174,7 @@ iframe { max-width: 100%; }
 .team-page .member-role {
   margin: 5px 0 0;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 1.12rem;
   line-height: 1.5;
 }
 
@@ -1193,7 +1193,7 @@ iframe { max-width: 100%; }
   margin: 0;
   padding: 0;
   color: var(--ink);
-  font-size: 0.78rem;
+  font-size: 1.12rem;
   line-height: 1.5;
 }
 
@@ -1205,7 +1205,7 @@ iframe { max-width: 100%; }
   display: inline-block;
   margin-top: 18px;
   color: var(--navy-900);
-  font-size: 0.78rem;
+  font-size: 1.12rem;
   font-weight: 650;
   line-height: 1.45;
   text-decoration: none;
