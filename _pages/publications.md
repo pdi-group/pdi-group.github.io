@@ -10,7 +10,7 @@ permalink: /publications/
 <section class="publication-section">
   <div class="section-heading section-heading--stacked">
     <p class="eyebrow">Highlights</p>
-    <h2>Selected publications</h2>
+    <h2>Representative publications</h2>
   </div>
 
   <div class="publication-highlight-grid">
@@ -39,7 +39,7 @@ permalink: /publications/
 <section class="publication-section" id="full-list-of-publications">
   <div class="section-heading section-heading--stacked">
     <p class="eyebrow">Archive</p>
-    <h2>Full publication list</h2>
+    <h2>Selected publication list</h2>
   </div>
 
   <div class="publication-list">
