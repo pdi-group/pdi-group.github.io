@@ -14,11 +14,11 @@ permalink: /openings/
       <p class="eyebrow">Prospective students</p>
     </div>
 
-    <h2>PhD Openings</h2>
+    <h2>PhD students</h2>
 
     <p>
-      We welcome prospective graduate students with interests in
-      Nanophotonics, Photonics Integration, Quantumdot devices, 
+      We welcome prospective graduate students with background in
+      Electronics, Photonics, Physics, 
       and related research areas.
     </p>
 
@@ -38,7 +38,8 @@ permalink: /openings/
 
     <p>
       We welcome applications for postdoctoral researchers and research
-      assistants with backgrounds in Nanophotonics, Photonics Integration, Quantumdot devices, or related disciplines.
+      assistants with experiences in Electronics, Photonics, Physics, 
+      and related research disciplines.
     </p>
 
     <a class="text-link" href="mailto:{{ site.email }}">
