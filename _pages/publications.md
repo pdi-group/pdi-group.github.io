@@ -16,7 +16,7 @@ permalink: /publications/
   <div class="publication-highlight-grid">
     {% assign number_printed = 0 %}
     {% for publi in site.data.publist %}
-      {% if publi.highlight == 1 and number_printed < 6 %}
+      {% if publi.highlight == 1 and number_printed < 3 %}
       <article class="publication-highlight-card">
         {% if publi.image %}
         <a class="publication-highlight-card__image" href="{{ publi.link.url }}" target="_blank" rel="noopener">
