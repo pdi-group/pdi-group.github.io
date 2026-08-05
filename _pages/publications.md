@@ -7,6 +7,8 @@ intro: Selected highlights followed by the complete publication list included in
 permalink: /publications/
 ---
 
+{% assign sorted_publist = site.data.publist | sort: "year" | reverse %}
+
 <section class="publication-section">
   <div class="section-heading section-heading--stacked">
     <p class="eyebrow">Highlights</p>
@@ -15,7 +17,7 @@ permalink: /publications/
 
   <div class="publication-highlight-grid">
     {% assign number_printed = 0 %}
-    {% for publi in site.data.publist %}
+    {% for publi in sorted_publist %}
       {% if publi.highlight == 1 and number_printed < 3 %}
       <article class="publication-highlight-card">
         {% if publi.image %}
@@ -43,7 +45,7 @@ permalink: /publications/
   </div>
 
   <div class="publication-list">
-    {% for publi in site.data.publist %}
+    {% for publi in sorted_publist %}
     <article class="publication-row">
       <div class="publication-row__number">{{ forloop.index }}</div>
       <div>

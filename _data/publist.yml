@@ -1,4 +1,5 @@
 - title: 755 nm InP/GaAs0.65P0.35 quantum dot laser with polarization-dependent emission from type-I and type-II band alignments
+  year: 2025
   image: BSCCO_noise.png
   description: ""
   authors:
@@ -9,115 +10,18 @@
   highlight: 0
 
 - title: Continuous-wave III–V micro-ring lasers with position-controlled vertical QWs laterally integrated on SOI
+  year: 2025
   image: BSCCO_noise.png
   description: ""
   authors:
      Z. Wu, Z. Lei, Z. Ren, C. Z, Y. Yu, Y. Xue, Y. Han, and S. Yu
   link:
     url: http://dx.doi.org/10.1364/PRJ.569119
-    display: Photonics Research, 13(12): 3492-3498 (2025)
-  highlight: 0
-
-- title: "In-plane 1.5 µm distributed feedback lasers selectively grown on (001) SOI"
-  image: BSCCO_noise.png
-  description: Selected as cover. Feature story by multiple technology medias, including EurekAlert, PIC, Compound Semiconductor, Photonics Spectra, AZO Optics, Physics. org, Electro Optics, OE Show, etc.
-  authors: Y. Xue, J. Li, Y. Wang, K. Xu, Z. Xing, K. S. Wong, H. K. Tsang, and K. M. Lau
-  link:
-    url: https://doi.org/10.1002/lpor.202300549
-    display: Laser & Photonics Reviews, 2300549, (2024)
-  highlight: 1
-
-- title: "High speed and low dark current Si-waveguide coupled III-V photodetectors selectively grown on SOI"
-  image: dummy.png
-  description: Feature story by multiple technology medias, including EurekAlert, Physics, Science Daily, Mirage News, News Explorer, etc.
-  authors:
-    Y. Xue, Y. Han, Y. Wang, J. Li, J. Wang, Z. Zhang, X. Cai, H. K. Tsang, and K. M. Lau
-  link:
-    url: https://doi.org/10.1364/OPTICA.468129
-    display: Optica, 9(11), 1219-1226 (2022)
-  highlight: 1
-
-- title: "High-performance III-V photodetectors on a monolithic InP/SOI platform"
-  image: dummy.png
-  description: Feature story by multiple medias, including Optics & photonics news, EurekAlert, Semiconductor Today, Academic Gates, Syntecoptics, etc. Highlighted by IMEC, IBM and CAS.
-  authors:
-    Y. Xue, Y. Han, Y. Tong, Z. Yan, Y. Wang, Z. Zhang, H. K. Tsang, and K. M. Lau
-  link:
-    url: https://doi.org/10.1364/OPTICA.431357
-    display: Optica, 8(9), 1204-1209 (2021)
-  highlight: 1
-
-- title: Telecom InP-based quantum dash photodetectors grown on Si
-  image: ""
-  description: ""
-  authors:
-    Y. Xue, Y. Wang, W. Luo, J. Huang, L. Lin, H. K. Tsang, and K. M. Lau 
-  link:
-    url: https://doi.org/10.1063/5.0045485
-    display: Applied Physics Letters, 118(14), 141101 (2021) **(Editors' Pick)**
-  highlight: 0
-
-- title: 1.55 µm electrically pumped continuous wave lasing of quantum dash lasers grown on silicon
-  image: ""
-  description: Highly cited. Featured story by Semiconductor Today, cited by UCSB, UCL and A*STAR as the first demonstration of 1.55 μm CW quantum dash lasers on Si.
-  authors:
-    Y. Xue, W. Luo, S. Zhu, L. Lin, B. Shi, and K. M. Lau
-  link:
-    url: https://doi.org/10.1364/OE.392120
-    display: Optics Express, 28(12), 18172-18179 (2020)
-  highlight: 0
-
-- title: Bufferless III–V photodetectors directly grown on (001) silicon-on-insulators
-  image: ""
-  description: ""
-  authors:
-    Y. Xue, Y. Han, Y. Wang, Z. Zhang, H. K. Tsang, and K. M. Lau
-  link:
-    url: https://doi.org/10.1364/OL.387702
-    display: Optics Letters, 45(7), 1754-1757 (2020)
-  highlight: 0
-
-- title: III-V active devices on silicon-on-insulator by lateral selective heteroepitaxy
-  image: ""
-  description: ""
-  authors:
-    Y. Xue and K. M. Lau
-  link:
-    url: https://dx.doi.org/10.3788/LOP241588
-    display: Laser & Optoelectronics Progress, 19, (2024). **(Invited paper, highlighted paper)**
-  highlight: 0
-
-- title: Telecom InGaAs/InP quantum well lasers laterally grown on Silicon-on-Insulator
-  image: ""
-  description: ""
-  authors:
-    J. Li*, Y. Xue*, L. Lin, Z. Xing, K. S. Wong and K. M. Lau
-  link:
-    url: https://doi.org/10.1109/JLT.2022.3181723
-    display: Journal of Lightwave Technology, 40(16), 5631-5635 (2022)
-  highlight: 0
-
-- title: Comparison of growth structures for continuous-wave electrically pumped 1.55 μm quantum dash lasers grown on (001) Si
-  image: ""
-  description: ""
-  authors:
-     W. Luo*, Y. Xue*, J. Huang, L. Lin, B. Shi, and K. M. Lau
-  link:
-    url: https://doi.org/10.1364/PRJ.403938
-    display: Photonics Research, 8(12), 1888-1894 (2020)
-  highlight: 0
-
-- title: Large-area single-crystal InP laterally grown on patterned SOI
-  image: ""
-  description: ""
-  authors:
-     J. Li*, Y. Xue*, K. Xu, Z. Xing, K. S. Wong, and K. M. Lau
-  link:
-    url: https://doi.org/10.1063/5.0232263
-    display: APL Materials, 12(11), (2024)
+    display: "Photonics Research, 13(12): 3492-3498 (2025)"
   highlight: 0
 
 - title: 980 nm QW micro-lasers with ultra-low threshold and high reliability
+  year: 2025
   image: ""
   description: ""
   authors:
@@ -127,67 +31,40 @@
     display: IEEE Journal of Selected Topics in Quantum Electronics, 11014603, 1-10, (2025)
   highlight: 0
 
-- title: A monolithic InP/SOI platform for integrated photonics
-  image: ""
-  description: Feature story by multiple medias including EurekAlert, photonics, Compound Semiconductor etc.
-  authors:
-     Z. Yan, Y. Han, L. Lin, Y. Xue, C. Ma, W. K. Ng, K. S. Wong and K. M. Lau
+- title: "In-plane 1.5 µm distributed feedback lasers selectively grown on (001) SOI"
+  year: 2024
+  image: BSCCO_noise.png
+  description: Selected as cover. Feature story by multiple technology medias, including EurekAlert, PIC, Compound Semiconductor, Photonics Spectra, AZO Optics, Physics. org, Electro Optics, OE Show, etc.
+  authors: Y. Xue, J. Li, Y. Wang, K. Xu, Z. Xing, K. S. Wong, H. K. Tsang, and K. M. Lau
   link:
-    url: https://doi.org/10.1038/s41377-021-00636-0
-    display: Light science & applications, 10, 200, (2021)
-  highlight: 0
+    url: https://doi.org/10.1002/lpor.202300549
+    display: Laser & Photonics Reviews, 2300549, (2024)
+  highlight: 1
 
-- title: Selectively grown III-V lasers for integrated Si-photonics
+- title: III-V active devices on silicon-on-insulator by lateral selective heteroepitaxy
+  year: 2024
   image: ""
   description: ""
   authors:
-     Y. Han, Y. Xue, Z. Yan, and K. M. Lau
+    Y. Xue and K. M. Lau
   link:
-    url: https://doi.org/10.1109/JLT.2020.3041348
-    display: IEEE Journal of Lightwave Technology, 39(4), 940-948 (2021) **(Invited paper)**
+    url: https://dx.doi.org/10.3788/LOP241588
+    display: Laser & Optoelectronics Progress, 19, (2024). **(Invited paper, highlighted paper)**
   highlight: 0
 
-- title: Selective lateral epitaxy of dislocation-free InP on silicon-on-insulators
+- title: Large-area single-crystal InP laterally grown on patterned SOI
+  year: 2024
   image: ""
   description: ""
   authors:
-     Y. Han, Y. Xue, and K. M. Lau
+     J. Li*, Y. Xue*, K. Xu, Z. Xing, K. S. Wong, and K. M. Lau
   link:
-    url: https://doi.org/10.1063/1.5095457
-    display: Applied Physics Letters, 114(19), 192105 (2019) **(Editor’s pick, Most Read Editor’s picks of 2019, Highly cited, Highly Read Research in Semiconductors)**
-  highlight: 0
-
-- title: High Coupling Efficiency Waveguide Grating Couplers on Lithium Niobate
-  image: ""
-  description: ""
-  authors:
-     X. Zhou, Y. Xue, F. Ye, Z. Feng, Y. Li, X. Sun, K. M. Lau, and H. K. Tsang 
-  link:
-    url: https://doi.org/10.1364/OL.489753
-    display: Optics Letters, 48(12), 3267-3270, (2023)
-  highlight: 0
-
-- title: Optical gain and absorption of 1.55 μm InAs quantum dash lasers on silicon substrate
-  image: ""
-  description: ""
-  authors:
-     Z. Li, S. Shutts, Y. Xue, W. Luo, K. M. Lau, and P. M. Smowton
-  link:
-    url: https://doi.org/10.1063/5.0043815
-    display: Applied Physics Letters, 118(13), 131101 (2021)
-  highlight: 0
-
-- title: Bufferless 1.5 µm III-V lasers grown on Si-photonics 220 nm silicon-on-insulator platforms
-  image: ""
-  description: Feature story by multiple technology medias, including Photonics.com, Compound Semiconductor, Semiconductor Today, AZO Optics, Physics.org, etc.
-  authors:
-     Y. Han, Z. Yan, W. K. Ng, Y. Xue, K. S. Wong, and K. M. Lau
-  link:
-    url: https://doi.org/10.1364/OPTICA.381745
-    display: Optica, 7(2), 148-153 (2020)
+    url: https://doi.org/10.1063/5.0232263
+    display: APL Materials, 12(11), (2024)
   highlight: 0
 
 - title: GaAs Templates Selectively Grown on Silicon-on-Insulator for Lasers in Silicon Photonics
+  year: 2024
   image: ""
   description: ""
   authors:
@@ -198,6 +75,7 @@
   highlight: 0
 
 - title: GaAs micro-disk lasers with Al2O3 passivation selectively grown on SOI
+  year: 2024
   image: ""
   description: ""
   authors:
@@ -207,3 +85,145 @@
     display: ACS Photonics, 11(9), 3578-3584 (2024)
   highlight: 0
 
+- title: High Coupling Efficiency Waveguide Grating Couplers on Lithium Niobate
+  year: 2023
+  image: ""
+  description: ""
+  authors:
+     X. Zhou, Y. Xue, F. Ye, Z. Feng, Y. Li, X. Sun, K. M. Lau, and H. K. Tsang 
+  link:
+    url: https://doi.org/10.1364/OL.489753
+    display: Optics Letters, 48(12), 3267-3270, (2023)
+  highlight: 0
+
+- title: "High speed and low dark current Si-waveguide coupled III-V photodetectors selectively grown on SOI"
+  year: 2022
+  image: dummy.png
+  description: Feature story by multiple technology medias, including EurekAlert, Physics, Science Daily, Mirage News, News Explorer, etc.
+  authors:
+    Y. Xue, Y. Han, Y. Wang, J. Li, J. Wang, Z. Zhang, X. Cai, H. K. Tsang, and K. M. Lau
+  link:
+    url: https://doi.org/10.1364/OPTICA.468129
+    display: Optica, 9(11), 1219-1226 (2022)
+  highlight: 1
+
+- title: Telecom InGaAs/InP quantum well lasers laterally grown on Silicon-on-Insulator
+  year: 2022
+  image: ""
+  description: ""
+  authors:
+    J. Li*, Y. Xue*, L. Lin, Z. Xing, K. S. Wong and K. M. Lau
+  link:
+    url: https://doi.org/10.1109/JLT.2022.3181723
+    display: Journal of Lightwave Technology, 40(16), 5631-5635 (2022)
+  highlight: 0
+
+- title: "High-performance III-V photodetectors on a monolithic InP/SOI platform"
+  year: 2021
+  image: dummy.png
+  description: Feature story by multiple medias, including Optics & photonics news, EurekAlert, Semiconductor Today, Academic Gates, Syntecoptics, etc. Highlighted by IMEC, IBM and CAS.
+  authors:
+    Y. Xue, Y. Han, Y. Tong, Z. Yan, Y. Wang, Z. Zhang, H. K. Tsang, and K. M. Lau
+  link:
+    url: https://doi.org/10.1364/OPTICA.431357
+    display: Optica, 8(9), 1204-1209 (2021)
+  highlight: 1
+
+- title: Telecom InP-based quantum dash photodetectors grown on Si
+  year: 2021
+  image: ""
+  description: ""
+  authors:
+    Y. Xue, Y. Wang, W. Luo, J. Huang, L. Lin, H. K. Tsang, and K. M. Lau 
+  link:
+    url: https://doi.org/10.1063/5.0045485
+    display: Applied Physics Letters, 118(14), 141101 (2021) **(Editors' Pick)**
+  highlight: 0
+
+- title: A monolithic InP/SOI platform for integrated photonics
+  year: 2021
+  image: ""
+  description: Feature story by multiple medias including EurekAlert, photonics, Compound Semiconductor etc.
+  authors:
+     Z. Yan, Y. Han, L. Lin, Y. Xue, C. Ma, W. K. Ng, K. S. Wong and K. M. Lau
+  link:
+    url: https://doi.org/10.1038/s41377-021-00636-0
+    display: Light science & applications, 10, 200, (2021)
+  highlight: 0
+
+- title: Selectively grown III-V lasers for integrated Si-photonics
+  year: 2021
+  image: ""
+  description: ""
+  authors:
+     Y. Han, Y. Xue, Z. Yan, and K. M. Lau
+  link:
+    url: https://doi.org/10.1109/JLT.2020.3041348
+    display: IEEE Journal of Lightwave Technology, 39(4), 940-948 (2021) **(Invited paper)**
+  highlight: 0
+
+- title: Optical gain and absorption of 1.55 μm InAs quantum dash lasers on silicon substrate
+  year: 2021
+  image: ""
+  description: ""
+  authors:
+     Z. Li, S. Shutts, Y. Xue, W. Luo, K. M. Lau, and P. M. Smowton
+  link:
+    url: https://doi.org/10.1063/5.0043815
+    display: Applied Physics Letters, 118(13), 131101 (2021)
+  highlight: 0
+
+- title: 1.55 µm electrically pumped continuous wave lasing of quantum dash lasers grown on silicon
+  year: 2020
+  image: ""
+  description: Highly cited. Featured story by Semiconductor Today, cited by UCSB, UCL and A*STAR as the first demonstration of 1.55 μm CW quantum dash lasers on Si.
+  authors:
+    Y. Xue, W. Luo, S. Zhu, L. Lin, B. Shi, and K. M. Lau
+  link:
+    url: https://doi.org/10.1364/OE.392120
+    display: Optics Express, 28(12), 18172-18179 (2020)
+  highlight: 0
+
+- title: Bufferless III–V photodetectors directly grown on (001) silicon-on-insulators
+  year: 2020
+  image: ""
+  description: ""
+  authors:
+    Y. Xue, Y. Han, Y. Wang, Z. Zhang, H. K. Tsang, and K. M. Lau
+  link:
+    url: https://doi.org/10.1364/OL.387702
+    display: Optics Letters, 45(7), 1754-1757 (2020)
+  highlight: 0
+
+- title: Comparison of growth structures for continuous-wave electrically pumped 1.55 μm quantum dash lasers grown on (001) Si
+  year: 2020
+  image: ""
+  description: ""
+  authors:
+     W. Luo*, Y. Xue*, J. Huang, L. Lin, B. Shi, and K. M. Lau
+  link:
+    url: https://doi.org/10.1364/PRJ.403938
+    display: Photonics Research, 8(12), 1888-1894 (2020)
+  highlight: 0
+
+- title: Bufferless 1.5 µm III-V lasers grown on Si-photonics 220 nm silicon-on-insulator platforms
+  year: 2020
+  image: ""
+  description: Feature story by multiple technology medias, including Photonics.com, Compound Semiconductor, Semiconductor Today, AZO Optics, Physics.org, etc.
+  authors:
+     Y. Han, Z. Yan, W. K. Ng, Y. Xue, K. S. Wong, and K. M. Lau
+  link:
+    url: https://doi.org/10.1364/OPTICA.381745
+    display: Optica, 7(2), 148-153 (2020)
+  highlight: 0
+
+- title: Selective lateral epitaxy of dislocation-free InP on silicon-on-insulators
+  year: 2019
+  image: ""
+  description: ""
+  authors:
+     Y. Han, Y. Xue, and K. M. Lau
+  link:
+    url: https://doi.org/10.1063/1.5095457
+    display: Applied Physics Letters, 114(19), 192105 (2019) **(Editor’s pick, Most Read Editor’s picks of 2019, Highly cited, Highly Read Research in Semiconductors)**
+  highlight: 0
