@@ -1,6 +1,6 @@
 - title: Continuous-wave III–V micro-ring lasers with position-controlled vertical QWs laterally integrated on SOI
   year: 2025
-  image: BSCCO_noise.png
+  image: ""
   description: ""
   authors:
      Z. Wu, Z. Lei, Z. Ren, C. Z, Y. Yu, Y. Xue, Y. Han, and S. Yu
@@ -77,7 +77,7 @@
 
 - title: "In-plane 1.5 µm distributed feedback lasers selectively grown on (001) SOI"
   year: 2024
-  image: BSCCO_noise.png
+  image: lpr.jpg
   description: Selected as cover. Feature story by multiple technology medias, including EurekAlert, PIC, Compound Semiconductor, Photonics Spectra, AZO Optics, Physics. org, Electro Optics, OE Show, etc.
   authors: Y. Xue, J. Li, Y. Wang, K. Xu, Z. Xing, K. S. Wong, H. K. Tsang, and K. M. Lau
   link:
@@ -131,7 +131,7 @@
 
 - title: "High-performance III-V photodetectors on a monolithic InP/SOI platform"
   year: 2021
-  image: dummy.png
+  image: optica2021.png
   description: Feature story by multiple medias, including Optics & photonics news, EurekAlert, Semiconductor Today, Academic Gates, Syntecoptics, etc. Highlighted by IMEC, IBM and CAS.
   authors:
     Y. Xue, Y. Han, Y. Tong, Z. Yan, Y. Wang, Z. Zhang, H. K. Tsang, and K. M. Lau
