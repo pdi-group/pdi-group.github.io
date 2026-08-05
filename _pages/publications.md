@@ -3,7 +3,6 @@ title: Publications
 heading: Publications
 layout: page
 eyebrow: Research output
-intro: Selected highlights followed by the complete publication list included in this repository.
 permalink: /publications/
 ---
 
