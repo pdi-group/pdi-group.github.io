@@ -1,5 +1,5 @@
 - title: 755 nm InP/GaAs0.65P0.35 quantum dot laser with polarization-dependent emission from type-I and type-II band alignments
-  image: ""
+  image: BSCCO_noise.png
   description: ""
   authors:
      W. Gu, B. Zhao, Y. Xue, and K. M. Lau
@@ -9,7 +9,7 @@
   highlight: 0
 
 - title: Continuous-wave III–V micro-ring lasers with position-controlled vertical QWs laterally integrated on SOI
-  image: ""
+  image: BSCCO_noise.png
   description: ""
   authors:
      Z. Wu, Z. Lei, Z. Ren, C. Z, Y. Yu, Y. Xue, Y. Han, and S. Yu
