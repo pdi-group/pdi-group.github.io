@@ -1,3 +1,23 @@
+- title: 755 nm InP/GaAs0.65P0.35 quantum dot laser with polarization-dependent emission from type-I and type-II band alignments
+  image: ""
+  description: ""
+  authors:
+     W. Gu, B. Zhao, Y. Xue, and K. M. Lau
+  link:
+    url: https://doi.org/10.1364/OE.563529
+    display: Optics Express, 33(11), 23732-23739, (2025)
+  highlight: 0
+
+- title: Continuous-wave III–V micro-ring lasers with position-controlled vertical QWs laterally integrated on SOI
+  image: ""
+  description: ""
+  authors:
+     Z. Wu, Z. Lei, Z. Ren, C. Z, Y. Yu, Y. Xue, Y. Han, and S. Yu
+  link:
+    url: http://dx.doi.org/10.1364/PRJ.569119
+    display: Photonics Research, 13(12): 3492-3498 (2025)
+  highlight: 0
+
 - title: "In-plane 1.5 µm distributed feedback lasers selectively grown on (001) SOI"
   image: BSCCO_noise.png
   description: Selected as cover. Feature story by multiple technology medias, including EurekAlert, PIC, Compound Semiconductor, Photonics Spectra, AZO Optics, Physics. org, Electro Optics, OE Show, etc.
@@ -187,22 +207,3 @@
     display: ACS Photonics, 11(9), 3578-3584 (2024)
   highlight: 0
 
-- title: 755 nm InP/GaAs0.65P0.35 quantum dot laser with polarization-dependent emission from type-I and type-II band alignments
-  image: ""
-  description: ""
-  authors:
-     W. Gu, B. Zhao, Y. Xue, and K. M. Lau
-  link:
-    url: https://doi.org/10.1364/OE.563529
-    display: Optics Express, 33(11), 23732-23739, (2025)
-  highlight: 0
-
-- title: Continuous-wave III–V micro-ring lasers with position-controlled vertical QWs laterally integrated on SOI
-  image: ""
-  description: ""
-  authors:
-     Z. Wu, Z. Lei, Z. Ren, C. Z, Y. Yu, Y. Xue, Y. Han, and S. Yu
-  link:
-    url: http://dx.doi.org/10.1364/PRJ.569119
-    display: Photonics Research, 13(12): 3492-3498 (2025)
-  highlight: 0
