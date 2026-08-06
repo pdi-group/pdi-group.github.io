@@ -461,7 +461,55 @@ iframe { max-width: 100%; }
   .research-detail { grid-template-columns: 1fr; gap: 28px; }
   .research-detail--reverse .research-detail__image { order: 0; }
   .callout-box { align-items: flex-start; flex-direction: column; }
-  .publication-highlight-card { grid-template-columns: 180px 1fr; }
+  /*.publication-highlight-card { grid-template-columns: 180px 1fr; }*/
+  @media (max-width: 860px) {
+  .publication-highlight-card {
+    grid-template-columns: 180px 1fr;
+  }
+
+  .publication-highlight-card__image {
+    min-height: 220px;
+    padding: 14px;
+  }
+
+  .publication-highlight-card__image img {
+    max-width: 145px;
+    max-height: 190px;
+  }
+
+  .featured-publication {
+    grid-template-columns: 160px 1fr;
+    gap: 20px;
+  }
+
+  .featured-publication img {
+    width: 145px;
+    height: 110px;
+  }
+}
+
+  @media (max-width: 640px) {
+    .publication-highlight-card {
+      grid-template-columns: 1fr;
+    }
+
+    .publication-highlight-card__image {
+      min-height: 220px;
+      border-right: 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .featured-publication {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .featured-publication img {
+      width: 170px;
+      height: 125px;
+    }
+  }
+
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
   .footer-grid > div:first-child { grid-column: 1 / -1; }
 }
@@ -477,8 +525,30 @@ iframe { max-width: 100%; }
   .intro-strip { grid-template-columns: 1fr; gap: 8px; }
   .research-card-grid, .team-grid, .team-grid--compact, .opening-grid { grid-template-columns: 1fr; }
   .news-item, .news-archive__item { grid-template-columns: 1fr; gap: 8px; }
-  .featured-publication { grid-template-columns: 92px 1fr; gap: 18px; }
-  .featured-publication img { width: 92px; height: 82px; }
+  /*.featured-publication { grid-template-columns: 92px 1fr; gap: 18px; }
+  .featured-publication img { width: 92px; height: 82px; }*/
+  /* Home featured publications */
+  .featured-publication {
+    display: grid;
+    grid-template-columns: 190px 1fr;
+    gap: 26px;
+    align-items: center;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .featured-publication img {
+    display: block;
+    justify-self: start;
+    width: 170px;
+    height: 130px;
+    padding: 8px;
+    object-fit: contain;
+    border-radius: var(--radius-sm);
+    background: var(--surface-soft);
+  }
+
+
   .page-hero__inner { padding: 60px 0 54px; }
   .page-content { padding-top: 55px; padding-bottom: 75px; }
   .publication-highlight-card { grid-template-columns: 1fr; }
