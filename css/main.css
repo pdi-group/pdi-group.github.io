@@ -283,9 +283,9 @@ ul, ol { margin-top: 0; }
 /* Publications */
 .publication-section + .publication-section { margin-top: 90px; }
 .publication-highlight-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 25px; }
-/*.publication-highlight-card { display: grid; grid-template-columns: 155px 1fr; min-height: 250px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-md); background: white; }
+.publication-highlight-card { display: grid; grid-template-columns: 155px 1fr; min-height: 250px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-md); background: white; }
 .publication-highlight-card__image { background: var(--surface-soft); }
-.publication-highlight-card__image img { width: 100%; height: 100%; object-fit: cover; }*/
+.publication-highlight-card__image img { width: 100%; height: 100%; object-fit: cover; }
 /* Publications highlight cards */
 .publication-highlight-grid {
   display: grid;
@@ -293,54 +293,6 @@ ul, ol { margin-top: 0; }
   gap: 25px;
 }
 
-.publication-highlight-card {
-  display: grid;
-  grid-template-columns: 210px 1fr;
-  align-items: center;
-  min-height: 260px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md);
-  background: white;
-}
-
-.publication-highlight-card__image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 260px;
-  padding: 18px;
-  background: var(--surface-soft);
-  border-right: 1px solid var(--line);
-}
-
-.publication-highlight-card__image img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 170px;
-  max-height: 220px;
-  object-fit: contain;
-}
-
-.publication-highlight-card__body {
-  padding: 24px 26px;
-}
-
-.publication-highlight-card__body h3 {
-  margin-bottom: 10px;
-  font-size: 1.17rem;
-  line-height: 1.35;
-}
-
-.publication-highlight-card__body h3 a {
-  color: var(--navy-950);
-}
-
-.publication-highlight-card__body > p:not(.publication-authors):not(.publication-venue) {
-  color: var(--muted);
-  font-size: .9rem;
-}
 
 
 .publication-highlight-card__body { padding: 24px; }
