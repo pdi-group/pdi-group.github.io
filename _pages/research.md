@@ -7,7 +7,7 @@ intro: We connect fundamental questions with new measurement capabilities, movin
 permalink: /research/
 ---
 
-<section class="research-detail" id="quantum-materials">
+<section class="research-detail" id="Nanophotonics">
   <div class="research-detail__image">
     <img src="{{ '/images/respic/SpinFluc.png' | relative_url }}" alt="Scientific visualization related to quantum materials">
   </div>
@@ -19,7 +19,7 @@ permalink: /research/
   </div>
 </section>
 
-<section class="research-detail research-detail--reverse" id="quantum-sensing">
+<section class="research-detail research-detail--reverse" id="Photonics Integration">
   <div class="research-detail__image">
     <img src="{{ '/images/respic/STM.png' | relative_url }}" alt="Scanning probe measurement system">
   </div>
@@ -31,7 +31,7 @@ permalink: /research/
   </div>
 </section>
 
-<section class="research-detail" id="instrumentation">
+<section class="research-detail" id="Photonics Devices">
   <div class="research-detail__image">
     <img src="{{ '/images/respic/SmartTip.png' | relative_url }}" alt="Microfabricated scientific probe">
   </div>
