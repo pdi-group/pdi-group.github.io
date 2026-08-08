@@ -9,8 +9,8 @@ description: Research group website built with Jekyll and GitHub Pages.
 google_analytics:
 
 # GitHub Pages project-site configuration.
-url: "https://yumenglu417.github.io"
-baseurl: "/labtest.github.io"
+url: "https://pdi-group.github.io"
+baseurl: ""
 
 # Optional links shown in the header/footer.
 institution_url: "https://www.cuhk.edu.hk/english/index.html"
