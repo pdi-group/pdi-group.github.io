@@ -1545,3 +1545,35 @@ iframe { max-width: 100%; }
   }
 }
 
+.research-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 36px;
+  align-items: center;
+  margin: 18px 0 28px;
+}
+
+.research-intro__text p {
+  margin: 0;
+}
+
+.research-intro__image img {
+  display: block;
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* 手机端自动变成上下布局 */
+@media (max-width: 800px) {
+  .research-intro {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .research-intro__image img {
+    width: 100%;
+    height: auto;
+  }
+}
