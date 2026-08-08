@@ -6,7 +6,7 @@ eyebrow: Research output
 permalink: /publications/
 ---
 
-{% assign sorted_publist = site.data.publist | sort: "year" | reverse %}
+{% assign sorted_publist = site.data.publist %}
 
 <section class="publication-section">
   <div class="section-heading section-heading--stacked">
