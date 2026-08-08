@@ -10,8 +10,8 @@ body_class: home-page
   <div class="site-shell home-hero__grid">
     <div class="home-hero__copy">
       <p class="eyebrow">{{ site.department }} · {{ site.institution }}</p>
-      <h1>Exploring quantum matter through new experiments.</h1>
-      <p class="home-hero__lead">We combine fundamental physics, precision measurement, and instrument development to study complex electronic systems at the nanoscale.</p>
+      <h1>Exploring the future of integrated photonics.</h1>
+      <p class="home-hero__lead">We explore nanophotonic devices, monolithic III–V/silicon integration, and quantum-dot optoelectronics for next-generation photonic systems.</p>
       <div class="button-row">
         <a class="button button--primary" href="{{ '/research/' | relative_url }}">Explore our research</a>
         <a class="button button--ghost" href="{{ '/openings/' | relative_url }}">Join the group</a>
