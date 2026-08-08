@@ -136,7 +136,15 @@ permalink: /team/
 
         <div class="member-card__body">
 
-          <h3 class="team-card-title">{{ member.name }}</h3>
+          <h3 class="team-card-title">
+            {% if member.website %}
+            <a href="{{ member.website }}" target="_blank" rel="noopener">
+              {{ member.name }}
+            </a>
+            {% else %}
+            {{ member.name }}
+            {% endif %}
+          </h3>
 
           {% if member.info %}
           <p class="member-role">{{ member.info }}</p>
