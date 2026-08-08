@@ -44,15 +44,37 @@ permalink: /publications/
   </div>
 
   <div class="publication-list">
+
+    {% assign current_year = "" %}
+
     {% for publi in sorted_publist %}
-    <article class="publication-row">
-      <div class="publication-row__number">{{ forloop.index }}</div>
-      <div>
-        <h3><a href="{{ publi.link.url }}" target="_blank" rel="noopener">{{ publi.title }}</a></h3>
-        <p class="publication-authors">{{ publi.authors }}</p>
-        <p class="publication-venue">{{ publi.link.display }}</p>
-      </div>
-    </article>
+
+      {% if publi.year != current_year %}
+        {% assign current_year = publi.year %}
+        <h2 class="publication-year">{{ current_year }}</h2>
+      {% endif %}
+
+      <article class="publication-row">
+        <div class="publication-row__number">{{ forloop.index }}</div>
+
+        <div>
+          <h3>
+            <a href="{{ publi.link.url }}" target="_blank" rel="noopener">
+              {{ publi.title }}
+            </a>
+          </h3>
+
+          <p class="publication-authors">
+            {{ publi.authors }}
+          </p>
+
+          <p class="publication-venue">
+            {{ publi.link.display }}
+          </p>
+        </div>
+      </article>
+
     {% endfor %}
+
   </div>
 </section>
