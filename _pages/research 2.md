@@ -28,7 +28,7 @@ Our research focuses on semiconductor optoelectronics and integrated photonics, 
   </div>
 
   <div class="research-intro__image">
-    <img src="{{ site.baseurl }}/images/micro.png"
+    <img src="{{ site.baseurl }}/images/respic/micro.png"
          alt="Nanophotonics research">
   </div>
 </div>
@@ -64,7 +64,7 @@ Our research focuses on semiconductor optoelectronics and integrated photonics, 
   </div>
 
   <div class="research-intro__image">
-    <img src="{{ site.baseurl }}/images/integration.png"
+    <img src="{{ site.baseurl }}/images/respic/integration.png"
          alt="III-V silicon photonics integration">
   </div>
 </div>
@@ -123,7 +123,7 @@ Our research focuses on semiconductor optoelectronics and integrated photonics, 
   </div>
 
   <div class="research-intro__image">
-    <img src="{{ site.baseurl }}/images/devices.png"
+    <img src="{{ site.baseurl }}/images/respic/devices.png"
          alt="Quantum dot devices">
   </div>
 </div>
