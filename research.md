@@ -1,46 +1,146 @@
 ---
 title: "Research"
 layout: textlay
-excerpt: "Research -- Lab Name"
+excerpt: "Research -- Nanophotonics, Photonics Integration, and Quantum Dot Devices"
 sitemap: false
 permalink: /research/
 ---
 
 # Research
 
-Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
+Our research focuses on semiconductor optoelectronics and integrated photonics, spanning three closely related directions: **Nanophotonics**, **Photonics Integration**, and **Quantum Dot Devices**. We investigate semiconductor materials, optical cavities, active devices, and integrated photonic platforms, with the goal of developing compact, high-performance, and scalable optoelectronic systems.
 
-Our goal is to build instruments and develop techniques that enable us to address the questions we find most interesting. This is possible thanks also to Milan's broad background with different research themes and technologies: he learned his trade in [Seamus Davis’ SI-STM lab](http://davisgroup.lassp.cornell.edu/) and with [Felix Baumberger](http://dpmc.unige.ch/gr_baumberger/index.html), and later moved as an [ETH fellow](http://www.ethfellows.ethz.ch/) to [Andreas Wallraff’s qudev lab](http://www.qudev.ethz.ch/) where he investigated coupled cavity arrays in circuit QED. We further have group members with different background and interests, working together on physics and instrumentation.
+---
 
-Here are some themes and techniques that we currently work on:
+## Nanophotonics
 
-**Scanning tunneling noise spectroscopy (STNS).** We have developed a novel cryogenic MHz amplifier that allows us to measure not only the average tunneling current, but also its fluctuation! This has many applications: one can detect the fluctuations of the electronic states, peculiar tunneling processes, and shot noise. We have used this instrument to discover charge trapping in the insulating layer of the cuprates, connected to the c-axis mystery, and to measure the doubling of the charge due to Andreev processes to the superfluid in a lead sample.
+<div class="research-intro">
+  <div class="research-intro__text">
+    <p>
+      We investigate micro- and nanoscale photonic structures for efficient
+      light generation, confinement, manipulation, and coupling. Our work
+      includes semiconductor micro-ring and micro-disk lasers, compact
+      quantum-well micro-lasers, and integrated optical coupling structures.
+      By engineering resonator geometries, optical modes, and semiconductor
+      heterostructures, we aim to realize low-threshold, efficient, and robust
+      nanophotonic devices.
+    </p>
+  </div>
+
+  <div class="research-intro__image">
+    <img src="{{ site.baseurl }}/images/respic/micro.png"
+         alt="Nanophotonics research">
+  </div>
+</div>
 
 
-**Mott physics and high-temperature superconductivity.** Questions of interest include: (i), How does the Mott state collapse upon doping and how is this related to the complex phase diagram of high-temperature superconductors? (ii), What is the strange metal phase seen in correlated electron systems? Is this an exotic long-range entangled state? What is the mechanism of dissipation in that state? (iii), Why is the transition temperature in high-temperature superconductors so high? We have worked on iridates, rhodates, and cuprates.
+**Related publications**
 
-**Nanofabricated "Smart Tips"**.
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SmartTip.png){: style="width: 250px; float: left; margin: 0px  10px"}
-One of the  projects back from my job-proposal is to develop nanofabricated STM tips. The idea behind these “smart tips” is to use the technologies that were developed over decades in nanofabrication and make them available for scanning probe by using a nano-device instead of the traditional STM tungsten tip. One gains the flexibility of using different functionalities that are known from the fields of nanofabrication and mesoscopic physics. We are collaborating with the group Simon Groeblacher at TU Delft to realize this concept, benefitting from their unparalleled micro/nano fabrication know how.  A prototype of a smart tip is shown to the left. See publications in Microsyst Nanoeng, Nanotechnology, and PRB.
+- [Continuous-wave III–V micro-ring lasers with position-controlled vertical QWs laterally integrated on SOI](http://dx.doi.org/10.1364/PRJ.569119)  
+  *Photonics Research, 13(12), 3492–3498 (2025)*
 
-**Josephson STM.** Josephson STM has the ability to gain insight into spatial variations of the order parameter, or superfluid density. We have managed to, for the first time, use JSTM with atomic resolution on a quantum material.
-We have used atomic-resolution Josephson scanning tunneling microscopy to reveal a strongly inhomogeneous superfluid in the iron-based superconductor FeTe0.55Se0.45. The results and their implications are published in Nature.
+- [980 nm QW micro-lasers with ultra-low threshold and high reliability](https://doi.org/10.1109/JSTQE.2025.3573291)  
+  *IEEE Journal of Selected Topics in Quantum Electronics, 11014603, 1–10 (2025)*
 
-We also detected and investigated a quite particular YSR state in the same material.
+- [GaAs micro-disk lasers with Al2O3 passivation selectively grown on SOI](https://doi.org/10.1021/acsphotonics.4c00527)  
+  *ACS Photonics, 11(9), 3578–3584 (2024)*
 
-**Ultra-stable SI-STM instrument.**  ![]({{ site.url }}{{ site.baseurl }}/images/respic/STMHead.png){: style="width: 250px; float: right; margin: 0px 10px"}
-For SI-STM, having the most stable STM head is key. We have used finite element simulations, good choices in material science, and craftsmanship to build the most stable STM head in the world, to our knowledge. See publication in RSI.
+- [High Coupling Efficiency Waveguide Grating Couplers on Lithium Niobate](https://doi.org/10.1364/OL.489753)  
+  *Optics Letters, 48(12), 3267–3270 (2023)*
 
+---
 
-**Strange Metals.** The strange metal phase might be the most mysterious phase of high-temperature superconductors. Here, the electrical resistivity grows linearly with temperature T in large areas of the phase diagram, with a mean free path that diminishes to a fraction of the interatomic distance. T-linear resistivity is often associated with quantum critical points and marginal-Fermi-liquid physics. In strange metals, the mystery seems to go even further: we deal with something that looks like a quantum critical phase over an extended range of the phase diagram instead of cumulating in a point. There exists no consistent theory for strange metals, leading to more adventurous new approaches including the holographic theories that use insights from gravity to explain strange metals (a recent textbook on this was written by our colleagues at Leiden University, Schalm and Zaanen).
-We are part of the 'Strange Metal consortium NL' that includes the groups of Hussey, Golden, van Heumen, Zaanen, Schalm, Stoof and Vandoren. 
+## Photonics Integration
 
-**Magnetic fluctuations and electron spin resonance.**
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SpinFluc.png){: style="width: 70%; float: center; margin: 10px"}
+<div class="research-intro">
+  <div class="research-intro__text">
+    <p>
+      We develop material and device technologies for integrating III–V active
+      components with silicon photonic platforms. A major focus is monolithic
+      III–V integration on silicon-on-insulator (SOI) through selective
+      heteroepitaxy, enabling compact optical coupling between active III–V
+      devices and passive Si photonic components.
+    </p>
+  </div>
 
-**Twisted bilayer graphene and other material with super-periodicities.**
-We have proposed that artificial super-periodicities can lead to improved superconductivity, both because of increased density of states and because of phase space arguments (see image from our SciPost publication below). Perhaps for different reasons, twisted bilayer graphene has been shown to superconduct! We are investigate this material with the groups of Efetov, Baumberger, and van der Molen.
+  <div class="research-intro__image">
+    <img src="{{ site.baseurl }}/images/respic/integration.png"
+         alt="III-V silicon photonics integration">
+  </div>
+</div>
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"}
+**Related publications**
 
-### ... and more.
+- [In-plane 1.5 µm distributed feedback lasers selectively grown on (001) SOI](https://doi.org/10.1002/lpor.202300549)  
+  *Laser & Photonics Reviews, 2300549 (2024)*
+
+- [III-V active devices on silicon-on-insulator by lateral selective heteroepitaxy](https://dx.doi.org/10.3788/LOP241588)  
+  *Laser & Optoelectronics Progress, 19 (2024)*
+
+- [Large-area single-crystal InP laterally grown on patterned SOI](https://doi.org/10.1063/5.0232263)  
+  *APL Materials, 12(11) (2024)*
+
+- [GaAs Templates Selectively Grown on Silicon-on-Insulator for Lasers in Silicon Photonics](https://doi.org/10.1021/acs.cgd.3c01279)  
+  *Crystal Growth & Design, 24, 1302–1307 (2024)*
+
+- [High speed and low dark current Si-waveguide coupled III-V photodetectors selectively grown on SOI](https://doi.org/10.1364/OPTICA.468129)  
+  *Optica, 9(11), 1219–1226 (2022)*
+
+- [Telecom InGaAs/InP quantum well lasers laterally grown on Silicon-on-Insulator](https://doi.org/10.1109/JLT.2022.3181723)  
+  *Journal of Lightwave Technology, 40(16), 5631–5635 (2022)*
+
+- [High-performance III-V photodetectors on a monolithic InP/SOI platform](https://doi.org/10.1364/OPTICA.431357)  
+  *Optica, 8(9), 1204–1209 (2021)*
+
+- [A monolithic InP/SOI platform for integrated photonics](https://doi.org/10.1038/s41377-021-00636-0)  
+  *Light: Science & Applications, 10, 200 (2021)*
+
+- [Selectively grown III-V lasers for integrated Si-photonics](https://doi.org/10.1109/JLT.2020.3041348)  
+  *Journal of Lightwave Technology, 39(4), 940–948 (2021)*
+
+- [Bufferless III-V photodetectors directly grown on (001) silicon-on-insulators](https://doi.org/10.1364/OL.387702)  
+  *Optics Letters, 45(7), 1754–1757 (2020)*
+
+- [Bufferless 1.5 µm III-V lasers grown on Si-photonics 220 nm silicon-on-insulator platforms](https://doi.org/10.1364/OPTICA.381745)  
+  *Optica, 7(2), 148–153 (2020)*
+
+- [Selective lateral epitaxy of dislocation-free InP on silicon-on-insulators](https://doi.org/10.1063/1.5095457)  
+  *Applied Physics Letters, 114(19), 192105 (2019)*
+
+---
+
+## Quantum Dot Devices
+
+<div class="research-intro">
+  <div class="research-intro__text">
+    <p>
+      We study quantum-dot and quantum-dash semiconductor devices for light
+      generation and photodetection. These low-dimensional active materials
+      provide strong carrier confinement and distinctive optical gain,
+      absorption, and polarization properties for efficient semiconductor
+      optoelectronics.
+    </p>
+  </div>
+
+  <div class="research-intro__image">
+    <img src="{{ site.baseurl }}/images/respic/devices.png"
+         alt="Quantum dot devices">
+  </div>
+</div>
+
+**Related publications**
+
+- [755 nm InP/GaAs0.65P0.35 quantum dot laser with polarization-dependent emission from type-I and type-II band alignments](https://doi.org/10.1364/OE.563529)  
+  *Optics Express, 33(11), 23732–23739 (2025)*
+
+- [Telecom InP-based quantum dash photodetectors grown on Si](https://doi.org/10.1063/5.0045485)  
+  *Applied Physics Letters, 118(14), 141101 (2021)*
+
+- [Optical gain and absorption of 1.55 μm InAs quantum dash lasers on silicon substrate](https://doi.org/10.1063/5.0043815)  
+  *Applied Physics Letters, 118(13), 131101 (2021)*
+
+- [1.55 µm electrically pumped continuous wave lasing of quantum dash lasers grown on silicon](https://doi.org/10.1364/OE.392120)  
+  *Optics Express, 28(12), 18172–18179 (2020)*
+
+- [Comparison of growth structures for continuous-wave electrically pumped 1.55 μm quantum dash lasers grown on (001) Si](https://doi.org/10.1364/PRJ.403938)  
+  *Photonics Research, 8(12), 1888–1894 (2020)*
