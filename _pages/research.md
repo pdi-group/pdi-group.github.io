@@ -31,7 +31,7 @@ permalink: /research/
   </div>
 </section>
 
-<section class="research-detail" id="Photonics Devices">
+<section class="research-detail" id="devices">
   <div class="research-detail__image">
     <img src="{{ '/images/respic/SmartTip.png' | relative_url }}" alt="Microfabricated scientific probe">
   </div>
