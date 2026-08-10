@@ -43,15 +43,15 @@ permalink: /team/
           <div class="pi-card__group">
 
             {% if pi.position %}
-            <p>{{ pi.position }}</p>
+            <p><strong>{{ pi.position }}</strong></p>
             {% endif %}
 
             {% if pi.department %}
-            <p>{{ pi.department }}</p>
+            <p><strong>{{ pi.department }}</strong></p>
             {% endif %}
 
             {% if pi.university %}
-            <p>{{ pi.university }}</p>
+            <p><strong>{{ pi.university }}</strong></p>
             {% endif %}
           </div>
           {% endif %}
