@@ -1244,36 +1244,21 @@ iframe { max-width: 100%; }
 
 /* 左侧照片：强制清除旧样式 */
 
+/* PI photo: keep original image aspect ratio */
 .team-page article.pi-card .pi-card__photo {
-  position: relative !important;
-  grid-column: 1;
-  grid-row: 1;
-
-  width: 100% !important;
-  height: auto !important;
-  min-width: 0 !important;
-  min-height: 0 !important;
+  width: 270px !important;
   max-width: 270px !important;
-  margin: 0 !important;
-
-  aspect-ratio: 4 / 5;
-  overflow: hidden;
-  border-radius: 7px;
-  background: var(--surface-blue);
+  height: auto !important;
+  aspect-ratio: auto !important;
+  align-self: center !important;
 }
 
 .team-page article.pi-card .pi-card__photo img {
-  position: static !important;
   display: block;
-
   width: 100% !important;
-  height: 100% !important;
-  min-width: 0 !important;
-  min-height: 0 !important;
-  max-width: 100% !important;
-
-  object-fit: cover;
-  object-position: center top;
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: center center;
 }
 
 
@@ -1374,8 +1359,21 @@ iframe { max-width: 100%; }
   .team-page article.pi-card .pi-card__photo {
     grid-column: 1;
     grid-row: 1;
+
+    width: 100% !important;
     max-width: none !important;
-    aspect-ratio: 4 / 5;
+    height: auto !important;
+
+    aspect-ratio: auto !important;
+  }
+
+  .team-page article.pi-card .pi-card__photo img {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+
+    object-fit: contain !important;
+    object-position: center center;
   }
 
   .team-page article.pi-card .pi-card__body {
