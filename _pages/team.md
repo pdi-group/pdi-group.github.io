@@ -39,13 +39,8 @@ permalink: /team/
 
           <h3 class="team-card-title">{{ pi.name }}</h3>
 
-          {% if pi.position %}
-          <p class="pi-card__position">{{ pi.position }}</p>
-          {% endif %}
-
           {% if pi.department or pi.university %}
           <div class="pi-card__group">
-            <strong>Employment</strong>
 
             {% if pi.position %}
             <p>{{ pi.position }}</p>
@@ -57,20 +52,6 @@ permalink: /team/
 
             {% if pi.university %}
             <p>{{ pi.university }}</p>
-            {% endif %}
-          </div>
-          {% endif %}
-
-          {% if pi.education1 or pi.education2 %}
-          <div class="pi-card__group">
-            <strong>Education</strong>
-
-            {% if pi.education1 %}
-            <p>{{ pi.education1 }}</p>
-            {% endif %}
-
-            {% if pi.education2 %}
-            <p>{{ pi.education2 }}</p>
             {% endif %}
           </div>
           {% endif %}
