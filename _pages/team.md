@@ -37,21 +37,21 @@ permalink: /team/
 
         <div class="pi-card__body">
 
-          <h2 class="team-card-title">{{ pi.name }}</h2>
+          <h3 class="team-card-title">{{ pi.name }}</h3>
 
           {% if pi.department or pi.university %}
           <div class="pi-card__group">
 
             {% if pi.position %}
-            <p><strong>{{ pi.position }}</strong></p>
+            <p>{{ pi.position }}</p>
             {% endif %}
 
             {% if pi.department %}
-            <p><strong>{{ pi.department }}</strong></p>
+            <p>{{ pi.department }}</p>
             {% endif %}
 
             {% if pi.university %}
-            <p><strong>{{ pi.university }}</strong></p>
+            <p>{{ pi.university }}</p>
             {% endif %}
           </div>
           {% endif %}
