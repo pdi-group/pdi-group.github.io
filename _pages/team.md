@@ -72,6 +72,20 @@ permalink: /team/
           </div>
           {% endif %}
 
+          {% if pi.teaching1 or pi.teaching2 %}
+          <div class="pi-card__group">
+            <strong>Teaching</strong>
+
+            {% if pi.teaching1 %}
+            <p>{{ pi.teaching1 }}</p>
+            {% endif %}
+
+            {% if pi.teaching2 %}
+            <p>{{ pi.teaching2 }}</p>
+            {% endif %}
+          </div>
+          {% endif %}
+
         </div>
 
       </article>
