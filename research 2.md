@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: textlay
-excerpt: "Research -- Nanophotonics, Photonics Integration, and Photonics Devices"
+excerpt: "Research -- Optoelectronic Devices, Integrated Photonics, and Nanophotonics"
 sitemap: false
 permalink: /research/
 ---
