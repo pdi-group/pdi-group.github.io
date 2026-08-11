@@ -1,14 +1,14 @@
-- title: Nanophotonics
+- title: Optoelectronic Devices
   image: /images/respic/ald.png
-  summary: We explore micro- and nano-scale photonic structures, including micro-ring, micro-disk, and Quantum Well lasers, for compact and efficient light generation and control.
-  link: /research/#nanophotonics
+  summary: We designs and fabricates advanced devices, including lasers, amplifiers, modulators and photodetectors, mainly focusing on membrane architectures and quantum dot gain medium that achieve low power consumption, high speed and compact footprint.
+  link: /research/#optoelectronic-devices
 
-- title: Photonics Integration
+- title: Integrated Photonics
   image: /images/respic/dfb.png
-  summary: We develop monolithic III-V/silicon photonic platforms that integrate active devices, including lasers and photodetectors, with passive Si photonic circuits.
-  link: /research/#photonics-integration
+  summary: Our group develops strategies to seamlessly integrate active III-V semiconductors with passive photonic platforms, enabling complete photonic systems on chip. We target applications spanning optical communications, AI computing, sensing and quantum technologies.
+  link: /research/#integrated-photonics
 
-- title: Photonics Devices
+- title: Nanophotonics
   image: /images/respic/qdash.png
-  summary: We investigate quantum-dot and quantum-dash lasers and photodetectors, focusing on their optical properties, device performance, and integration on silicon.
-  link: /research/#photonics-devices
+  summary: We design novel photonic architectures to explore and harness the new physics arising from extreme light confinement. These discoveries provide both fundamental insights and the scientific foundation for future photonic technologies.
+  link: /research/#nanophotonics
