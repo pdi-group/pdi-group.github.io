@@ -10,7 +10,7 @@ body_class: home-page
   <div class="site-shell home-hero__grid">
     <div class="home-hero__copy">
       <p class="eyebrow">{{ site.department }} · {{ site.institution }}</p>
-      <h1>Exploring the future of integrated photonics.</h1>
+      <h2>Exploring the future of integrated photonics.</h2>
       <p class="home-hero__lead">We explore III-V optoelectronic devices, photonic integration, nanophotonics, and silicon photonics for communication, computing, sensing, and emerging fields.</p>
       <div class="button-row">
         <a class="button button--primary" href="{{ '/research/' | relative_url }}">Explore our research</a>
