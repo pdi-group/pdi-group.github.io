@@ -8,22 +8,16 @@ permalink: /research/
 
 # Research
 
-Our research focuses on semiconductor optoelectronics and integrated photonics, spanning three closely related directions: **Nanophotonics**, **Photonics Integration**, and **Photonics Devices**. We investigate semiconductor materials, optical cavities, active devices, and integrated photonic platforms, with the goal of developing compact, high-performance, and scalable optoelectronic systems.
+Our research focuses on semiconductor optoelectronics, spanning three closely related directions: **Optoelectronic Devices**, **Integrated Photonics**, and **Nanophotonics**. We investigate semiconductor lasers, optical cavities, active devices, and integrated photonic components, with the goal of developing compact, high-performance, and scalable optoelectronic systems.
 
 ---
 
-## Nanophotonics
+## Optoelectronic Devices
 
 <div class="research-intro">
   <div class="research-intro__text">
     <p>
-      We investigate micro- and nano-scale photonic structures for efficient
-      light emission, confinement, manipulation, and coupling. Our work
-      includes semiconductor micro-ring and micro-disk lasers, compact
-      quantum-well micro-lasers, and integrated optical coupling structures.
-      By engineering resonator geometries, optical modes, and semiconductor
-      heterostructures, we aim to realize low-threshold, efficient, and robust
-      nanophotonic devices.
+      III-V compound semiconductors possess unique properties for interconversion of electrical and optical signals with high efficiency and speed. Our group designs and fabricates advanced devices, including lasers, amplifiers, modulators and photodetectors, focusing on membrane architectures and quantum dot gain medium that achieve low power consumption, high speed and compact footprint.
     </p>
   </div>
 
@@ -47,16 +41,12 @@ Our research focuses on semiconductor optoelectronics and integrated photonics, 
 
 ---
 
-## Photonics Integration
+## Integrated Photonics
 
 <div class="research-intro">
   <div class="research-intro__text">
     <p>
-      We develop material and device technologies for integrating III–V active
-      components with silicon photonic platforms. A major focus is monolithic
-      III–V integration on silicon-on-insulator (SOI) through lateral selective
-      epitaxy, enabling compact optical coupling between active III–V
-      devices and passive Si photonic components.
+      Integrated photonics combines many optical functions onto a single chip. Our group develops strategies to seamlessly integrate active III-V semiconductors with passive photonic platforms, including silicon, silicon nitride, lithium niobate and emerging platform, enabling complete photonic systems on chip. We target applications spanning optical communications, AI computing, sensing and quantum technologies.
     </p>
   </div>
 
@@ -85,16 +75,12 @@ Our research focuses on semiconductor optoelectronics and integrated photonics, 
 
 ---
 
-## Photonics Devices
+## Nanophotonics
 
 <div class="research-intro">
   <div class="research-intro__text">
     <p>
-      We study quantum-dot and quantum-dash semiconductor devices for light
-      generation and photodetection. These low-dimensional active materials
-      provide strong carrier confinement and distinctive optical gain,
-      absorption, and polarization properties for efficient semiconductor
-      optoelectronics.
+      Our group studies how light behaves when confined to nanoscale structures, where conventional optics breaks down and new physical phenomena emerge. We design novel photonic architectures to explore and harness the new physics arising from extreme light confinement, including enhanced light-matter interactions, unconventional modal behaviours and nonlinear effects. These discoveries provide both fundamental insights and the scientific foundation for future photonic technologies.
     </p>
   </div>
 
