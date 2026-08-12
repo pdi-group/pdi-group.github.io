@@ -18,7 +18,7 @@ body_class: home-page
       </div>
     </div>
     <figure class="home-hero__media">
-      <img src="{{ '/images/slider7001400/lab.jpg' | relative_url }}" alt="Research laboratory">
+      <img src="{{ '/images/respic/wafer.jpg' | relative_url }}" alt="Research laboratory">
       <figcaption>Research, instrumentation, and collaboration.</figcaption>
     </figure>
   </div>
