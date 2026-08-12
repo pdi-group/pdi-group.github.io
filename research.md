@@ -8,7 +8,7 @@ permalink: /research/
 
 # Research
 
-Our research spans three closely connected directions: **Optoelectronic Devices, Integrated Photonics, and Nanophotonics**. We develop high-performance III–V lasers, modulators, amplifiers and photodetectors, also integrate active semiconductors with different platforms such as silicon, silicon nitride and lithium niobate. We explore nanoscale photonic structures for enhanced light–matter interactions and new optical phenomena. Our goal is to enable compact, energy-efficient, and scalable photonic technologies for communications, AI computing, sensing, and quantum applications.
+Our research spans three closely connected directions: **Optoelectronic Devices, Integrated Photonics, and Nanophotonics**. We develop high-performance III–V lasers, modulators, amplifiers and photodetectors, also integrate active semiconductors with different platforms such as silicon, silicon nitride and lithium niobate. Our goal is to enable compact, energy-efficient, and scalable photonic technologies for communications, AI computing, sensing, and quantum applications.
 
 ---
 
