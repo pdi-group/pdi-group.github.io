@@ -19,7 +19,7 @@ body_class: home-page
     </div>
     <figure class="home-hero__media">
       <img src="{{ '/images/respic/wafer.png' | relative_url }}" alt="Research laboratory">
-      <figcaption>Research, instrumentation, and collaboration.</figcaption>
+      <figcaption>Devices on wafer.</figcaption>
     </figure>
   </div>
 </section>
