@@ -110,7 +110,7 @@ body_class: home-page
 </section>
 
 <section class="photo-band">
-  <img src="{{ '/images/slider7001400/Group2015_red.jpg' | relative_url }}" alt="Group members">
+  <img src="{{ '/images/slider7001400/bg.png' | relative_url }}" alt="Group members">
   <div class="photo-band__overlay">
     <div class="site-shell">
       <p class="eyebrow">People make the science</p>
