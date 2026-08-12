@@ -51,7 +51,7 @@ Our research spans three closely connected directions: **Optoelectronic Devices,
   </div>
 
   <div class="research-intro__image">
-    <img src="{{ site.baseurl }}/images/respic/integrate_res.png"
+    <img src="{{ site.baseurl }}/images/respic/integrate_.png"
          alt="III-V silicon photonics integration">
   </div>
 </div>
