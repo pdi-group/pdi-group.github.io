@@ -4,11 +4,11 @@
   link: /research/#optoelectronic-devices
 
 - title: Integrated Photonics
-  image: /images/respic/dfb.png
+  image: /images/respic/integrate.png
   summary: Our group develops strategies to seamlessly integrate active III-V semiconductors with passive photonic platforms, enabling complete photonic systems on chip. We target applications spanning optical communications, AI computing, sensing and quantum technologies.
   link: /research/#integrated-photonics
 
 - title: Nanophotonics
-  image: /images/respic/qdash.png
+  image: /images/respic/phc.png
   summary: We design novel photonic architectures to explore and harness the new physics arising from extreme light confinement, including enhanced light-matter interactions, nonlinear effects, etc. These discoveries provide both fundamental insights and the scientific foundation for future photonic technologies.
   link: /research/#nanophotonics
