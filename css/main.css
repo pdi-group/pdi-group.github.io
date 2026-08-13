@@ -1525,7 +1525,7 @@ iframe { max-width: 100%; }
   border-radius: 6px;
   background: var(--surface-blue);
 
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
 }
 
 .team-page .member-card__photo img {
