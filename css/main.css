@@ -1520,19 +1520,18 @@ iframe { max-width: 100%; }
 }
 
 .team-page .member-card__photo {
-  margin: 18px 18px 0;
-  overflow: hidden;
-  border-radius: 6px;
-  background: var(--surface-blue);
-  aspect-ratio: 1 / 1;
+  width: 100% !important;
+  aspect-ratio: 4 / 3 !important;
+  height: auto !important;
+  overflow: hidden !important;
 }
 
 .team-page .member-card__photo img {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
 }
 
 .team-page .member-card__placeholder {
