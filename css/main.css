@@ -1599,7 +1599,7 @@ iframe { max-width: 100%; }
   color: var(--navy-900);
   font-size: 1.12rem;
   font-weight: 650;
-  line-height: 1.45; !important;
+  line-height: 1.45; 
   text-decoration: none;
   overflow-wrap: anywhere;
   font-family: Calibri, "Segoe UI", Arial, sans-serif;
