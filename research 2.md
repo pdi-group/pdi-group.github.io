@@ -22,7 +22,7 @@ Our research spans three closely connected directions: **Optoelectronic Devices,
   </div>
 
   <div class="research-intro__image">
-    <img src="{{ site.baseurl }}/images/respic/micro.png"
+    <img src="{{ site.baseurl }}/images/respic/opto.png"
          alt="Nanophotonics research">
   </div>
 </div>
