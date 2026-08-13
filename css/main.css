@@ -464,7 +464,7 @@ ul, ol { margin-top: 0; }
 .member-role p { margin: 0; }
 .member-email {
   font-size: .84rem;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
 }
 .team-grid--compact { grid-template-columns: repeat(4, minmax(0, 1fr)); }
