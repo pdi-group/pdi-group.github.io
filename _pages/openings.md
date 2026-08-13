@@ -3,7 +3,7 @@ title: Openings
 heading: Openings
 layout: page
 eyebrow: Join the group
-intro: We welcome motivated students interested in Nanophotonics, Photonics Integration, and Quantumdot devices. 
+intro: We welcome motivated students interested in Optoelectronic Devices, Integrated Photonics, and Nanophotonics. 
 permalink: /openings/
 ---
 
