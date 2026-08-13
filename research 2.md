@@ -30,14 +30,14 @@ Our research spans three closely connected directions: **Optoelectronic Devices,
 
 **Related publications**
 
-- [Continuous-wave III–V micro-ring lasers with position-controlled vertical QWs laterally integrated on SOI](http://dx.doi.org/10.1364/PRJ.569119)  
-  *Photonics Research, 13(12), 3492–3498 (2025)*
-
 - [980 nm QW micro-lasers with ultra-low threshold and high reliability](https://doi.org/10.1109/JSTQE.2025.3573291)  
   *IEEE Journal of Selected Topics in Quantum Electronics, 11014603, 1–10 (2025)*
 
-- [GaAs micro-disk lasers with Al2O3 passivation selectively grown on SOI](https://doi.org/10.1021/acsphotonics.4c00527)  
-  *ACS Photonics, 11(9), 3578–3584 (2024)*
+- [1.55 µm electrically pumped continuous wave lasing of quantum dash lasers grown on silicon](https://doi.org/10.1364/OE.392120)  
+  *Optics Express, 28(12), 18172–18179 (2020)*
+
+- [Comparison of growth structures for continuous-wave electrically pumped 1.55 μm quantum dash lasers grown on (001) Si](https://doi.org/10.1364/PRJ.403938)  
+  *Photonics Research, 8(12), 1888–1894 (2020)*
 
 ---
 
@@ -51,7 +51,7 @@ Our research spans three closely connected directions: **Optoelectronic Devices,
   </div>
 
   <div class="research-intro__image">
-    <img src="{{ site.baseurl }}/images/respic/integrate_.png"
+    <img src="{{ site.baseurl }}/images/respic/integrate.png"
          alt="III-V silicon photonics integration">
   </div>
 </div>
@@ -92,17 +92,20 @@ Our research spans three closely connected directions: **Optoelectronic Devices,
 
 **Related publications**
 
+- [Continuous-wave III–V micro-ring lasers with position-controlled vertical QWs laterally integrated on SOI](http://dx.doi.org/10.1364/PRJ.569119)  
+  *Photonics Research, 13(12), 3492–3498 (2025)*
+
 - [755 nm InP/GaAs<sub>0.65</sub>P<sub>0.35</sub> quantum dot laser with polarization-dependent emission from type-I and type-II band alignments](https://doi.org/10.1364/OE.563529)  
   *Optics Express, 33(11), 23732–23739 (2025)*
+
+- [GaAs micro-disk lasers with Al2O3 passivation selectively grown on SOI](https://doi.org/10.1021/acsphotonics.4c00527)  
+  *ACS Photonics, 11(9), 3578–3584 (2024)*
+
+- [Telecom InGaAs/InP quantum well lasers laterally grown on Silicon-on-Insulator](https://doi.org/10.1109/JLT.2022.3181723)
+  *Journal of Lightwave Technology, 40(16), 5631-5635 (2022)*
 
 - [Telecom InP-based quantum dash photodetectors grown on Si](https://doi.org/10.1063/5.0045485)  
   *Applied Physics Letters, 118(14), 141101 (2021)*
 
 - [Optical gain and absorption of 1.55 μm InAs quantum dash lasers on silicon substrate](https://doi.org/10.1063/5.0043815)  
   *Applied Physics Letters, 118(13), 131101 (2021)*
-
-- [1.55 µm electrically pumped continuous wave lasing of quantum dash lasers grown on silicon](https://doi.org/10.1364/OE.392120)  
-  *Optics Express, 28(12), 18172–18179 (2020)*
-
-- [Comparison of growth structures for continuous-wave electrically pumped 1.55 μm quantum dash lasers grown on (001) Si](https://doi.org/10.1364/PRJ.403938)  
-  *Photonics Research, 8(12), 1888–1894 (2020)*
