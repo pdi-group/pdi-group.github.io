@@ -462,11 +462,6 @@ ul, ol { margin-top: 0; }
 .member-card__body h3 { margin-bottom: 7px; }
 .member-role { min-height: 48px; margin-bottom: 11px; color: var(--muted); font-size: .91rem; }
 .member-role p { margin: 0; }
-.team-page .member-email {
-  font-family: Calibri, "Segoe UI", Arial, sans-serif;
-  font-weight: 500 !important;
-  font-style: italic;
-}
 .team-grid--compact { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .member-card--compact .member-card__body { min-height: 130px; }
 .alumni-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); }
@@ -1604,10 +1599,13 @@ iframe { max-width: 100%; }
   color: var(--navy-900);
   font-size: 1.12rem;
   font-weight: 650;
-  line-height: 1.45;
+  line-height: 1.45; !important;
   text-decoration: none;
   overflow-wrap: anywhere;
+  font-family: Calibri, "Segoe UI", Arial, sans-serif;
+  font-style: italic;
 }
+
 
 .team-page .member-email:hover {
   text-decoration: underline;
