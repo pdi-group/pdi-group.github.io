@@ -464,7 +464,7 @@ ul, ol { margin-top: 0; }
 .member-role p { margin: 0; }
 .team-page .member-email {
   font-family: Calibri, "Segoe UI", Arial, sans-serif;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   font-style: italic;
 }
 .team-grid--compact { grid-template-columns: repeat(4, minmax(0, 1fr)); }
