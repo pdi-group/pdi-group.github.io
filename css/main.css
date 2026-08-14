@@ -114,7 +114,7 @@ ul, ol { margin-top: 0; }
 }
 .brand-copy { display: grid; line-height: 1.14; }
 .brand-copy strong { font-family: Georgia, "Times New Roman", serif; font-size: 1.18rem; letter-spacing: -.01em; }
-.brand-copy small { margin-top: 4px; color: var(--muted); font-size: .72rem; letter-spacing: .04em; text-transform: uppercase; }
+.brand-copy small { margin-top: 4px; color: var(--muted); font-size: .72rem; letter-spacing: .04em; text-transform: none; }
 .primary-nav ul { display: flex; align-items: center; gap: 4px; margin: 0; padding: 0; list-style: none; }
 .primary-nav a {
   position: relative;
@@ -1683,4 +1683,11 @@ iframe { max-width: 100%; }
     width: 100%;
     height: auto;
   }
+}
+
+.footer-full-name {
+  margin: -6px 0 14px;
+  color: rgba(255,255,255,.62);
+  font-size: .82rem;
+  line-height: 1.5;
 }
