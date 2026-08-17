@@ -1508,8 +1508,8 @@ iframe { max-width: 100%; }
 
 .team-page .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
   align-items: stretch;
 }
 
@@ -1622,7 +1622,7 @@ iframe { max-width: 100%; }
 /* Compact students */
 
 .team-page .team-grid--compact {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .team-page .member-card--compact .member-card__body {
