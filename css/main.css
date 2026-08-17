@@ -528,18 +528,18 @@ ul, ol { margin-top: 0; }
 }
 
 .group-gallery__media {
-  width: 100%;
+  width: 30%;
+  max-width: 460px;
   overflow: hidden;
   border-radius: 8px;
   background: var(--surface-soft);
 }
 
 .group-gallery__media img {
-  display: block !important;
-  width: 100% !important;
-  height: auto !important;
-  margin: 0 !important;
-  object-fit: contain !important;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 @media (max-width: 760px) {
