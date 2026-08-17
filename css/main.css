@@ -444,7 +444,7 @@ ul, ol { margin-top: 0; }
 .team-section + .team-section { margin-top: 90px; }
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 20px;
 }
 .member-card { overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-md); background: white; transition: transform 200ms ease, box-shadow 200ms ease; }
@@ -468,7 +468,7 @@ ul, ol { margin-top: 0; }
 .member-card__body h3 { margin-bottom: 7px; }
 .member-role { min-height: 48px; margin-bottom: 11px; color: var(--muted); font-size: .91rem; }
 .member-role p { margin: 0; }
-.team-grid--compact { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.team-grid--compact { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .member-card--compact .member-card__body { min-height: 130px; }
 .alumni-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); }
 .alumni-item { padding: 24px 28px 24px 0; border-bottom: 1px solid var(--line); }
